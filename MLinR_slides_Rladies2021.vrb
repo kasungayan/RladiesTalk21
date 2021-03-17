@@ -1,0 +1,23 @@
+\frametitle{Example of \texttt {\{caret\}}}
+\protect\hypertarget{example-of-2}{}
+
+\tiny
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{library}\NormalTok{(caret)}
+\KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
+
+\CommentTok{# Build a decision tree model using rpart (Recursive Partitioning And Regression Trees)}
+\NormalTok{rPart_df <-}\StringTok{ }\KeywordTok{train}\NormalTok{(Species }\OperatorTok{~}\StringTok{ }\NormalTok{., }\DataTypeTok{data=}\NormalTok{iris, }\DataTypeTok{method=}\StringTok{"rpart"}\NormalTok{)}
+\NormalTok{rPart_imp <-}\StringTok{ }\KeywordTok{varImp}\NormalTok{(rPart_df)}
+
+\CommentTok{# Plotting the feature importance.}
+\KeywordTok{plot}\NormalTok{(rPart_imp, }\DataTypeTok{top =} \DecValTok{3}\NormalTok{, }\DataTypeTok{main=}\StringTok{'Variable Importance'}\NormalTok{, }\DataTypeTok{ylab =} \StringTok{"Features"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}\includegraphics[width=0.7\linewidth,height=0.6\textheight]{figs/unnamed-chunk-4} \end{center}
+
+\normalsize
+

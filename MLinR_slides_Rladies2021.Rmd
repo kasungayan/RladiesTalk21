@@ -1,0 +1,336 @@
+---
+title: Machine Learning in R
+subtitle: R-Ladies Colombo Chapter
+author: Kasun Bandara
+date: 29 March, 2021
+institute: Melbourne Centre for Data Science, University of Melbourne, Australia.
+bibliography: references.bib
+biblio-style: abbrvnat
+beameroption: "show notes"
+biblio-title: References
+output: 
+  binb::metropolis:
+    toc: false
+    keep_tex: true
+    citation_package: natbib
+  includes:
+    in_header: metropolis/header.tex  
+fontsize: 12pt
+header-includes:
+  - \usepackage{subfig}
+---
+
+```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(fig.path='figs/')
+knitr::opts_chunk$set(cache.path='cache/')
+knitr::opts_chunk$set(
+                  fig.process = function(x) {
+                      x2 = sub('-\\d+([.][a-z]+)$', '\\1', x)
+                      if (file.rename(x, x2)) x2 else x
+                      }
+                  )
+
+def.chunk.hook  <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  x <- def.chunk.hook(x, options)
+  ifelse(options$size != "normalsize", paste0("\n \\", options$size,"\n\n", x, "\n\n \\normalsize"), x)
+})
+```
+
+
+\begin{figure}
+\includegraphics[scale=0.22]{images/kasun}
+\end{figure}
+
+# Introduction
+
+## About me
+- 2015 Graduated in Computer Science from University of Colombo School of Computing
+- 2015 Joined WSO2 Inc. as a Software Engineer
+- 2016-2020 Ph.D. in Computer Science, Monash University, Australia
+  - Topic: Forecasting In Big Data With Recurrent Neural Networks
+  - Machine Learning for Time Series Forecasting
+  - Research Internship at Walmart Labs, San Francisco, USA
+  - Research Scientist at Turning Point, Melbourne, Australia
+  - Data Science Tutor, Faculty of IT, Monash University
+- 2021 Research Fellow, University of Melbourne
+
+## About me (2)
+- Research Interests
+  - Global Forecasting Models
+  - Hierarchical Forecasting
+  - Retail sales/demand forecasting
+  - Renewable energy production forecasting (solar)
+  
+- Competition Fanatic !
+  - M5 Forecasting Competition (**Gold Medalist**)
+  - IEEE CIS Energy Forecasting Competition (**4th Place**)
+  - Air-Liquide Energy Forecasting Competition (**4th Place**)
+  - ANZ Customer Segmentation Challenge (**Top Performer**) 
+
+## What is Data Science ?
+Data Science is an interdisciplinary field that permits you to extract information from organized or unstructured data.
+
+\begin{figure}
+  \includegraphics[width=.5\textwidth,height=.5\textheight,keepaspectratio]{images/datascience.jpeg}
+  \caption{An intersection of many fields of science%
+    \footnote{%
+     \tiny{Image source: https://medium.com/believing-these-8-myths-about-what-is-data-science-keeps-you-from-growing-528f1bd240dc} 
+    }%
+  }
+\end{figure}
+
+## Data Science Life Cycle
+Known as the O.S.E.M.N. framework.
+
+\begin{figure}
+  \includegraphics[width=.8\textwidth,height=.8\textheight,keepaspectratio]{images/osemn.png}
+  \caption{Data Science Process%
+    \footnote{%
+     \tiny{Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492} 
+    }%
+  }
+\end{figure}
+
+## Obtain (O)
+- Retrieving data from multiple sources of inputs. \
+ \begin{itemize}
+      \item Structured Data: RDBMS, Tabular Data, CSV, TSV.
+      \item Unstructured Data: NoSQL Databases, API Data (Twitter, Facebook).
+\end{itemize}
+ \vspace{2mm}
+- Databases: \texttt{\{odbc\}}
+ \vspace{2mm}
+- Scraping data from websites: \texttt{\{rvest\}}
+ \vspace{2mm}
+- Data platforms: **Kaggle**, **UCI**, **Competition Datasets**, **Government APIs**
+
+## Example of \texttt{\{rvest\}}
+
+```{r rvestcode, eval=FALSE, size="tiny"}
+library(rvest)
+library(dplyr)
+set.seed(1234)
+
+# reading the HTML page (Lord of the Rings)
+lor_movie <- read_html("https://www.imdb.com/title/tt0120737/")
+
+# Scraping the movie rating.
+lor_movie %>%
+  html_node("strong span") %>%
+  html_text() %>%
+  as.numeric()
+#[1] 8.8
+
+# Scraping the cast.
+lor_movie %>%
+  html_nodes("#titleCast .itemprop span") %>%
+  html_text()
+
+# Scraping the movie poster.
+lor_movie %>%
+  html_nodes("#img_primary img") %>%
+  html_attr("src")
+```  
+
+## Scrub (S)
+- Also known as \textbf{data pre-processing}, \textbf{data wrangling}. \
+ \vspace{2mm}
+- Converting the data into a unified, suitable format
+\begin{itemize}
+      \item Easier for the data exploration process.
+      \item What your predictive algorithm expects ?
+      \item \textbf{tidyverse} \texttt{\{dplyr,tidyr,stringr,tibble,purr,ggplot2\}}
+\end{itemize}
+ \vspace{2mm}
+- Handles data issues 
+\begin{itemize}
+      \item Cleaning: Missing values, Outliers, Noisy data.
+      \item Transformation: Normalisation, Feature Discretization.
+      \item Reduction: Feature selection, Dimensionality reduction.
+\end{itemize}
+
+## Missing Value Imputation
+
+```{r simputation, eval=FALSE, size="tiny"}
+library(simputation)
+set.seed(1234)
+
+# Loading iris dataset and randomly inserting NAs.
+df <- iris
+df_NA <- as.data.frame(lapply(df, function(imp) imp[ sample(c(TRUE, NA), 
+        prob = c(0.85, 0.15), size = length(imp), replace = TRUE)]))
+
+# Using median to impute the missing values.
+median_imputed <- impute_median(df_NA, 
+                                Sepal.Length ~ Species)
+
+# Using linear regression to impute the missing values.
+linear_imputed <- impute_lm(df_NA, Sepal.Length ~ Sepal.Width + Species)
+
+# Using CART algorithm to impute the missing values.
+cart_imputed <- impute_cart(df_NA, Species ~ .)
+
+# Imputing multiple variables at once.
+multivariable_imputed <- impute_rlm(df_NA, Sepal.Length + Sepal.Width 
+                                    ~ Petal.Length + Species)
+
+# Imputing using a pre-trained model.
+model <- lm(Sepal.Length ~ Sepal.Width + Species, data=iris)
+model_imputed <- impute(df_NA, Sepal.Length ~ model)
+
+``` 
+
+## Dealing with Outliers
+- A data point that differs significantly from other observations. \
+ \vspace{2mm}
+- Observations that distort your analysis.
+\begin{itemize}
+      \item Boxplot visualisation: \texttt{\{ggplot2\}}
+      \item Grubbs’s test, Dixon’s test, Rosner’s test: \texttt{\{outliers\}}
+      \item Outlier detection algorithms: \texttt{\{OutlierDetection\}}
+      \item \textbf{outlierTest()} from \texttt{\{car\}}
+      \item \textbf{lofactor()} from \texttt{\{DMwR\}} (Local Outlier Factor)
+\end{itemize}
+ \vspace{2mm}
+- Anomaly detection is itself a different research area ! 
+\begin{itemize}
+      \item One Class SVM, IsolationForest
+      \item Unsupervised algorithms (Clustering)
+      \item Time series: \texttt{\{tsoutliers,oddstream,stray\}}
+\end{itemize}
+
+
+## Feature Selection
+- Removing redundant features from the dataset.
+ \vspace{2mm}
+- Computational complexity, Address model overfitting.
+ \vspace{2mm}
+- \textbf{Filter Methods}
+\begin{itemize}
+      \item Features are selected based on a statistical score.
+      \item Independent of any machine learning algorithm.
+      \item \textbf{Pearson’s Correlation, Chi-Square, PCA}
+\end{itemize}
+ \vspace{2mm}
+- \textbf{Wrapper Methods}
+\begin{itemize}
+      \item A subset of features are used to train a model.
+      \item Forward, Backward, Recursive elimination.
+      \item Inbuilt penalization functions: \textbf{LASSO, RIDGE} regression 
+      \item \texttt{\{Boruta,caret,glmnet\}}
+\end{itemize}
+
+## Using Correlation
+
+```{r out.width="70%", out.height="60%", size="tiny", fig.align="center", warning=F}
+library(GGally)
+library(dplyr)
+set.seed(1234)
+
+# Plotting the feature correlations.
+iris %>% select(-Species) %>% ggpairs()
+```
+
+## Using PCR
+
+```{r out.width="70%", out.height="60%", size="tiny", fig.align="center", warning=F}
+library(dplyr)
+set.seed(1234)
+
+# Plotting the feature importance.
+pcomp_df <- iris %>% 
+  select(-Species) %>% prcomp(scale. = T, center = T) %>%
+  plot(type="l", main = "Principle Components")
+```
+
+
+## Example of \texttt{\{Boruta\}}
+
+```{r out.width="70%", out.height="60%", size="tiny", fig.align="center"}
+library(Boruta)
+set.seed(1234)
+
+# Boruta is a feature selection algorithm based on the random forests algorithm.
+boruta_df <- Boruta(Species ~ ., data=iris, doTrace=0)
+
+# Plotting the feature importance.
+plot(boruta_df, xlab="Features", main="Variable Importance")
+```  
+
+## Example of \texttt{\{caret\}}
+
+```{r out.width="70%", out.height="60%", size="tiny",fig.align="center"}
+library(caret)
+set.seed(1234)
+
+# Build a decision tree model using rpart (Recursive Partitioning And Regression Trees)
+rPart_df <- train(Species ~ ., data=iris, method="rpart")
+rPart_imp <- varImp(rPart_df)
+
+# Plotting the feature importance.
+plot(rPart_imp, top = 3, main='Variable Importance', ylab = "Features")
+```  
+
+## Explore (E)
+- Examination of data, features, and their characteristics.
+ \vspace{2mm}
+\begin{itemize}
+      \item Data types: numerical, ordinal, and nominal data.
+      \item Summary statistics.
+      \item Feature distributions.
+      \item Feature correlations (positive, negative).
+      \item Classification: class distribution (\textbf{Class Imbalance?})
+\end{itemize}
+ \vspace{2mm}
+- Invest your time more on the data exploration process.
+\begin{itemize}
+      \item Frequency distribution: \textbf{Histograms}
+      \item Outlier detection: \textbf{Box plots}
+      \item Feature correlation analysis: \textbf{Scatter plots}
+      \item Time series analysis: \textbf{Trend and Seasonal plots}
+\end{itemize}
+
+
+## Tools available for Exploration
+\begin{figure}
+  \includegraphics[width=.9\textwidth,height=.9\textheight,keepaspectratio]{images/data_exploration.png}
+  \caption{Plots available from \texttt{\{ggplot2\}}%
+    \footnote{%
+     \tiny{Image source: https://www.pinterest.com.au/pin/281686151677624808/}
+    }%
+  }
+\end{figure}
+
+## Seasonal plot from \texttt{\{feasts\}}
+\begin{figure}
+  \includegraphics[width=.55\textwidth,height=.55\textheight,keepaspectratio]{images/daily_seasonal.png}
+  \caption{The presence of multiple seasonal cycles%
+    \footnote{%
+     \tiny{Github repo: https://github.com/kasungayan/Meldatathon2020} 
+    }%
+  }
+\end{figure}
+
+
+# Title formats
+
+## Animation (using \LaTeX\ )
+
+\begin{itemize}[<+- | alert@+>]
+  \item \alert<4>{This is\only<4>{ really} important}
+  \item Now this
+  \item And now this
+\end{itemize}
+
+
+## Simple list
+
+\begin{itemize}
+  \item Kasun
+  \item Now this
+  \item And now this
+\end{itemize}
+
+## Tables (using \LaTeX})
