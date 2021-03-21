@@ -1,23 +1,19 @@
-\frametitle{Example of \texttt {\{caret\}}}
-\protect\hypertarget{example-of-2}{}
+\frametitle{Model Explainability (2)}
+\protect\hypertarget{model-explainability-2}{}
 
 \tiny
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{library}\NormalTok{(caret)}
-\KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
+\NormalTok{explanation <-}\StringTok{ }\KeywordTok{explain}\NormalTok{(test_features, }\DataTypeTok{approach =} \StringTok{"empirical"}\NormalTok{, }
+                       \DataTypeTok{explainer =}\NormalTok{ model_explainer, }\DataTypeTok{prediction_zero =}\NormalTok{ expected_price)}
 
-\CommentTok{# Build a decision tree model using rpart (Recursive Partitioning And Regression Trees)}
-\NormalTok{rPart_df <-}\StringTok{ }\KeywordTok{train}\NormalTok{(Species }\OperatorTok{~}\StringTok{ }\NormalTok{., }\DataTypeTok{data=}\NormalTok{iris, }\DataTypeTok{method=}\StringTok{"rpart"}\NormalTok{)}
-\NormalTok{rPart_imp <-}\StringTok{ }\KeywordTok{varImp}\NormalTok{(rPart_df)}
-
-\CommentTok{# Plotting the feature importance.}
-\KeywordTok{plot}\NormalTok{(rPart_imp, }\DataTypeTok{top =} \DecValTok{3}\NormalTok{, }\DataTypeTok{main=}\StringTok{'Variable Importance'}\NormalTok{, }\DataTypeTok{ylab =} \StringTok{"Features"}\NormalTok{)}
+\CommentTok{# Plot the resulting explanations for observations 1 and 6}
+\KeywordTok{plot}\NormalTok{(explanation, }\DataTypeTok{plot_phi0 =} \OtherTok{FALSE}\NormalTok{, }\DataTypeTok{index_x_test =} \KeywordTok{c}\NormalTok{(}\DecValTok{2}\NormalTok{, }\DecValTok{4}\NormalTok{, }\DecValTok{8}\NormalTok{, }\DecValTok{16}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.7\linewidth,height=0.6\textheight]{figs/unnamed-chunk-4} \end{center}
+\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-26} \end{center}
 
 \normalsize
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.16)  17 MAR 2021 11:48
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.18)  21 MAR 2021 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,26 +1477,222 @@ File: images/daily_seasonal.png Graphic file (type bmp)
 <images/daily_seasonal.png>
 [20
 
-] [21
+]
+File: images/model_validation.PNG Graphic file (type bmp)
+<images/model_validation.PNG>
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 645--645
+[][] 
+ []
+
+[21
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 639.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 12.22491pt on input line 639.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 8.42499pt on input line 639.
+Overfull \vbox (2.63031pt too high) detected at line 673
+ []
+
 [22
 
-] [23
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-] [24
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (25.59096pt too high) detected at line 723
+ []
 
-] [25
+[23
 
-] [26
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-] [27
+(./MLinR_slides_Rladies2021.vrb) [24
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb) [25
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (55.38289pt too high) detected at line 850
+ []
+
+[26
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-9.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-9.pdf>
+)
+Overfull \vbox (28.80495pt too high) detected at line 877
+ []
+
+[27
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (8.00316pt too high) detected at line 919
+ []
+
+[28
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-11.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-11.pdf>
+)
+Overfull \vbox (27.23735pt too high) detected at line 941
+ []
+
+[29
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (16.22292pt too high) detected at line 984
+ []
+
+[30
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (22.92525pt too high) detected at line 1028
+ []
+
+[31
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (22.92525pt too high) detected at line 1072
+ []
+
+[32
+
+] [33
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-15.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-15.pdf>
+)
+Overfull \vbox (10.24739pt too high) detected at line 1122
+ []
+
+[34
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-16.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-16.pdf>
+)
+Overfull \vbox (18.75145pt too high) detected at line 1146
+ []
+
+[35
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-17.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-17.pdf>
+)
+Overfull \vbox (26.78325pt too high) detected at line 1171
+ []
+
+[36
+
+] [37
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb) [38
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb) [39
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (64.03232pt too high) detected at line 1317
+ []
+
+[40
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-21.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-21.pdf>
+)
+Overfull \vbox (17.9768pt too high) detected at line 1344
+ []
+
+[41
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb) [42
+
+] [43
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb) [44
+
+] [45
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (6.15126pt too high) detected at line 1498
+ []
+
+[46
+
+] [47
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb) [48
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+(./MLinR_slides_Rladies2021.vrb
+File: figs/unnamed-chunk-26.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-26.pdf>
+)
+Overfull \vbox (19.1874pt too high) detected at line 1582
+ []
+
+[49
 
 ] (./MLinR_slides_Rladies2021.bbl
 
@@ -1506,7 +1702,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-) [28
+) [50
 
 ]
 \tf@nav=\write7
@@ -1524,15 +1720,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `MLinR_slides_Rladies2021.out' has not change
 d.
-(rerunfilecheck)             Checksum: B9F9B0F5E050FA634A837894D07B0E9C;307.
+(rerunfilecheck)             Checksum: 68B205B7C7D9F46121FEB48FE1F84366;196.
  ) 
 Here is how much of TeX's memory you used:
- 29103 strings out of 478930
- 606840 string characters out of 5866273
- 958385 words of memory out of 5000000
- 48275 multiletter control sequences out of 15000+600000
- 414474 words of font info for 115 fonts, out of 8000000 for 9000
+ 29233 strings out of 478922
+ 609545 string characters out of 5866020
+ 966721 words of memory out of 5000000
+ 48362 multiletter control sequences out of 15000+600000
+ 413091 words of font info for 108 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 112i,13n,172p,1827b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,13n,172p,1827b,891s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MLinR_slides_Rladies2021.pdf (28 pages).
+Output written on MLinR_slides_Rladies2021.pdf (50 pages).

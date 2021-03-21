@@ -1,6 +1,6 @@
 ---
 title: Machine Learning in R
-subtitle: R-Ladies Colombo Chapter
+subtitle: R-Ladies Colombo 
 author: Kasun Bandara
 date: 29 March, 2021
 institute: Melbourne Centre for Data Science, University of Melbourne, Australia.
@@ -313,24 +313,514 @@ plot(rPart_imp, top = 3, main='Variable Importance', ylab = "Features")
   }
 \end{figure}
 
+## Model Development (MD) 
+- Model parameter estimation, Hyper-parameter tuning.
+\vspace{2mm}
+\begin{figure}
+  \includegraphics[width=.6\textwidth,height=.6\textheight,keepaspectratio]{images/model_validation.PNG}
+  \caption{Model Training and Validation%
+    \footnote{%
+     \tiny{Image source: https://towardsdatascience.com/5-steps-of-a-data-science-project-lifecycle-26c50372b492} 
+    }%
+  }
+\end{figure}
 
-# Title formats
+## Model Development Techniques
+- **Supervised Learning** or **Unsupervised Learning**
+ \vspace{2mm}
+    \begin{itemize}
+      \item Regression: Linear-regression, Support Vector Machine (SVM), Lasso-Regression
+      \item Classification: Naive Bayes, Random Forest, K-Nearest Neighbors
+      \item Clustering: K-Means, Fuzzy C-Means, Self Organising Maps (SOM) 
+    \end{itemize}
+\vspace{2mm}
+- Neural Networks: Multilayer Perceptron (**MLP**), Recurrent Neural Network (**RNN**), Convolutional Neural Network (**CNN**)
+\vspace{2mm}
+- Different applications: **Spam Detection**, **Market Segmentation**, **Image Classification**, **Time Series Forecasting**, **Language Translation**, **Voice Recognition**
 
-## Animation (using \LaTeX\ )
+## Naive Bayes classifier
 
-\begin{itemize}[<+- | alert@+>]
-  \item \alert<4>{This is\only<4>{ really} important}
-  \item Now this
-  \item And now this
+```{r size="tiny",fig.align="center", warning=F}
+library(mlbench) # multiple benchmark datasets for different machine learning tasks.
+library(caret) # multiple inbuilt regression and classification algorithms.
+library(rsample) # data splitting.
+library(dplyr)
+
+data(BreastCancer)
+set.seed(1234)
+
+# Splitting the data into train and test sets.
+df_BreastCancer_split <- initial_split(BreastCancer, prop = .7)
+# Similar splitting using caTools
+# df_BreastCancer_split <- sample.split(BreastCancer,SplitRatio = 0.7)
+
+df_BreastCancer_train <- training(df_BreastCancer_split)
+df_BreastCancer_test  <- testing(df_BreastCancer_split)
+
+# Checking for class distribution.
+table(df_BreastCancer_train$Class) %>% prop.table()
+table(df_BreastCancer_test$Class) %>% prop.table()
+```  
+
+## Naive Bayes classifier Cont.
+```{r size="tiny",fig.align="center", warning=F}
+# create feature and class attributes.
+features <- setdiff(names(df_BreastCancer_train), "Class")
+train_features <- df_BreastCancer_train[, features]
+train_class <- df_BreastCancer_train$Class
+
+# Define a 10-fold cross validation procedure.
+train_control <- trainControl(method = "cv", number = 10)
+
+# train the naive bayes model
+model_nb1 <- train(x = train_features, y = train_class, method = "nb", trControl = train_control)
+#Show the confusion matrix.
+confusionMatrix(model_nb1)
+```  
+
+## Naive Bayes classifier Cont.
+```{r size="tiny",fig.align="center", warning=F}
+
+# hyper-parameter grid
+hyper_search_grid <- expand.grid(usekernel = c(TRUE, FALSE), fL = 0:5, adjust = seq(0, 5, by = 1))
+
+# train the naive bayes model using a hyper-parameter grid.
+model_nb2 <- train(x = train_features, y = train_class, method = "nb", 
+                   trControl = train_control, tuneGrid = hyper_search_grid)
+
+# Printing best models.
+# model_nb2$results %>% 
+#  arrange(desc(Accuracy)) %>% head(4)
+
+# results for best model
+confusionMatrix(model_nb2)
+```  
+
+## Naive Bayes results on the testset
+```{r size="tiny",fig.align="center", warning=F}
+# Applying the best model to unseen (test) dataset.
+prediction_test <- predict(model_nb2, newdata = df_BreastCancer_test)
+# Printing the confusing matrix on the test set.
+confusionMatrix(prediction_test, df_BreastCancer_test$Class)
+```  
+
+## Generating the ROC curve
+```{r out.width="70%", out.height="60%", size="tiny",fig.align="center", warning=F}
+library(caTools) #to generate ROC curves
+
+prob_results <- predict(model_nb2, df_BreastCancer_test, type = "prob")
+
+# Generating the ROC curve for the test set.
+caTools::colAUC(prob_results, df_BreastCancer_test[["Class"]], plotROC = TRUE)
+
+```  
+
+## Decision tree
+```{r size="tiny",fig.align="center", warning=F}
+library(caret)
+library(rpart)
+
+set.seed(1234)
+
+# Remove incomplete records.
+df_BreastCancer_train <- df_BreastCancer_train[complete.cases(df_BreastCancer_train), ]
+
+# Define a 10-fold cross validation procedure.
+train_control <- trainControl(method = "cv", number = 10)
+
+# train the naive bayes model.
+model_dt <- train(Class ~ ., data=df_BreastCancer_train, method = "rpart", trControl = train_control)
+#Show the confusion matrix.
+confusionMatrix(model_dt)
+```  
+
+## Visualising the decision tree
+```{r out.width="80%", out.height="70%", size="tiny",fig.align="center", warning=F, message=F}
+library(rattle)
+set.seed(1234)
+# Generating the decision tree.
+# You can also separately use the rpart and rpart.plot to reproduce this.
+
+fancyRpartPlot(model_dt$finalModel)
+
+``` 
+
+## Regression using \texttt{\{caret\}}
+```{r out.width="80%", out.height="70%", size="tiny",fig.align="center", warning=F, message=F}
+data(diamonds)
+set.seed(1234)
+
+# Data splitting.
+data_split <- initial_split(diamonds, prop = .7)
+train <- training(data_split)
+test  <- testing(data_split)
+
+# Linear regression model training.
+model <- train(price ~ ., train, method = "lm",trControl = trainControl(method = "cv",
+                                        number = 10))
+print(model)
+``` 
+
+## Regression using \texttt{\{glmnet\}}
+```{r, size="tiny",fig.align="center", warning=F, message=F}
+library(glmnet)
+library(dplyr)
+
+data(diamonds)
+set.seed(1234)
+# Defining the feature variables.
+x <- model.matrix(price~., train)[,-1]
+# Defining the class variable.
+y <- train$price
+
+# Use cross validation to determine the optimal lambda.
+cv <- cv.glmnet(x, y, alpha = 1)
+# Fit the final model (lasso regression) on the training data
+best_model <- glmnet(x, y, alpha = 1, lambda = cv$lambda.min)
+
+# Evaluating the model on the test data.
+x.test <- model.matrix(price~ ., test)[,-1]
+price_predictions <- best_model %>% predict(x.test) %>% as.numeric()
+price_predictions[price_predictions < 0] <- 0
+
+# Model performance summary.
+data.frame(
+  RMSE = RMSE(price_predictions, test$price),
+  Rsquare = R2(price_predictions, test$price)
+)
+``` 
+
+## Regression using \texttt{\{glmnet\}}
+```{r, size="tiny",fig.align="center", warning=F, message=F}
+library(glmnet)
+library(dplyr)
+
+data(diamonds)
+set.seed(1234)
+# Defining the feature variables.
+x <- model.matrix(price~., train)[,-1]
+# Defining the class variable.
+y <- train$price
+
+# Use cross validation to determine the optimal lambda.
+cv <- cv.glmnet(x, y, alpha = 1)
+# Fit the final model (lasso regression) on the training data
+best_model <- glmnet(x, y, alpha = 1, lambda = cv$lambda.min)
+
+# Evaluating the model on the test data.
+x.test <- model.matrix(price~ ., test)[,-1]
+price_predictions <- best_model %>% predict(x.test) %>% as.numeric()
+price_predictions[price_predictions < 0] <- 0
+
+# Model performance summary.
+data.frame(
+  RMSE = RMSE(price_predictions, test$price),
+  Rsquare = R2(price_predictions, test$price)
+)
+``` 
+
+## Unsupervised Learning
+- Learning patterns from unlabbled data.
+ \vspace{2mm}
+- Clustering ?
+ \vspace{2mm}
+    \begin{itemize}
+      \item K means: Computationally efficient, \textbf{Optimal K ?, Outliers?}
+      \item Elbow and Silhouette methods to determine the optimal K
+      \item \textbf{DBSCAN}: No restrictions on the cluster shapes
+      \item Feature are categorical ? \textbf{Partitioning Around Medoids (PAM)}
+      \item Hierarchical clustering: \textbf{cluster dendrogram}
+    \end{itemize}
+\vspace{2mm}
+- Auto-Encoders ?
+
+
+## Kmeans clustering
+```{r out.width="60%", out.height="50%",size="tiny",fig.align="center", warning=F, message=F}
+library(factoextra)
+
+set.seed(1234)
+
+# Removing the categorical class.
+df <- iris[, -5]
+# Applying kmeans algorithm with k = 3.
+cluster_output <- kmeans(df, centers = 3, nstart = 25)
+# Illustrating the cluster distribution.
+fviz_cluster(cluster_output, data = df)
+``` 
+
+## Optimal K
+```{r out.width="70%", out.height="60%",size="tiny",fig.align="center", warning=F, message=F}
+library(gridExtra)
+
+set.seed(1234)
+# Different methods to determine the optimal K.
+elbow <- fviz_nbclust(df, kmeans, method = "wss")
+silhouette <- fviz_nbclust(df, kmeans, method = "silhouette")
+
+grid.arrange(elbow, silhouette, nrow = 1)
+``` 
+
+## Clustering using DBSCAN
+```{r out.width="70%", out.height="60%",size="tiny",fig.align="center", warning=F, message=F}
+library(factoextra)
+library(fpc)
+
+set.seed(1234)
+df <- iris[, -5]
+
+# Using DBSCAN algorithm without setting the K.
+db_output <- fpc::dbscan(df, eps = 0.95, MinPts = 5)
+fviz_cluster(db_output, df, stand = FALSE, frame = FALSE, geom = "point")
+``` 
+
+## Neural Networks
+- Strong computational systems that mimic human brain.
+- Hold the universal approximation property.
+- Backpropagation algorithm for training.
+- State-of-the-art for many prediction/classification applications.
+- Different variants of neural networks.
+    \begin{itemize}
+      \item Multi-Layer Perceptrons (MLP): \texttt{\{nnet,neuralnet\}}
+      \item Recurrent Neural Networks (RNN): \texttt{\{rnn,RSNNS\}}
+      \item Convolutional neural networks (CNNs)
+    \end{itemize}
+- \textbf{Tensorflow, Keras, Torch} APIs in R
+
+## Feedforward Neural Networks using \texttt{\{nnet\}}
+```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+library(caret)
+
+data(diamonds)
+set.seed(1234)
+
+# Preprocessing.
+# Use model.matrix for categorical variables (one-hot encoding)
+df_diamonds <- diamonds[, c(-2, -3, -4)]
+
+# Data splitting.
+data_split <- initial_split(df_diamonds, prop = .7)
+train <- training(data_split)
+test  <- testing(data_split)
+
+# You can directly use the nnet function from the nnet packaage
+# mlp_fit <- nnet(price ~ ., train, size = 2, rang = 0.1, decay = 5e-4, maxit = 200)
+
+# You can use the nnet as the method in the caret function.
+mlp_fit <- train(price ~ ., train, method = "nnet",trControl = trainControl(method = "cv",
+                                        number = 10))
+#print(mlp_fit)
+``` 
+
+## Deep Neural Netowrks using \texttt{\{keras\}}
+```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+library(keras)
+library(rsample)
+library(ggplot2)
+library(dplyr)
+
+data(diamonds)
+set.seed(1234)
+
+# The initial preprocessing.
+# Use model.matrix for categorical variables (one-hot encoding)
+df_diamonds <- diamonds[, c(-2, -3, -4)]
+
+# Data splitting.
+data_split <- initial_split(df_diamonds, prop = .7)
+train <- training(data_split)
+test  <- testing(data_split)
+
+features <- setdiff(names(train), "price")
+train_features <- train[, features]
+train_class <- train$price
+``` 
+
+## Model definition
+```{r size="tiny",fig.align="center", warning=F, message=F}
+# Defining the model
+MLP_model <- keras_model_sequential() %>%
+  # The overall neural network architecture
+  layer_dense(units = 10, activation = "relu", input_shape = ncol(train_features)) %>%
+  layer_batch_normalization() %>% layer_dense(units = 5, activation = "relu") %>%
+  layer_batch_normalization() %>% layer_dropout(rate = 0.2) %>% layer_dense(units = 1) %>%
+  # Defining the optimization algorithm and loss function. 
+  # Use binary and multi-categorical cross entropy for classification.
+  compile(optimizer = optimizer_rmsprop(),loss = "mse",metrics = c("mae"))
+
+# print the summary of the model
+summary(MLP_model)
+``` 
+
+## Model Training
+```{r out.width="60%", out.height="50%", size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+
+# train the model
+learn <- MLP_model %>% fit(
+  x = as.matrix(train_features),
+  y = as.matrix(train_class),
+  epochs = 15,
+  batch_size = 32,
+  validation_split = .2,
+  verbose = TRUE
+)
+
+plot(learn)
+``` 
+
+## Model Results
+```{r out.width="60%", out.height="50%", size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+# Defining the real test features and actual test output.
+test_features <- test[, features]
+test_class <- test$price
+
+# Generating predictions for the first 5 records in the test set.
+model_predictions <- MLP_model %>% predict(as.matrix(test_features[1:5,]))
+model_predictions[model_predictions < 0] <- 0
+
+# Generating error summary statistic.
+model_results <- MLP_model %>% evaluate(as.matrix(test_features), as.matrix(test_class))
+``` 
+
+## Hyper-parameter optimization
+- Determining the optimal hyper-parameters for a machine learning algorithm.
+ \vspace{2mm}
+- Important for models with large number of hyper-parameters (neural networks)
+    \begin{itemize}
+      \item Random search
+      \item Grid search
+      \item Bayesian optimization: \texttt{\{rBayesianOptimization,mlrMBO\}}
+      \item Genetic algorithm: \texttt{\{GA\}}
+    \end{itemize}
+ \vspace{2mm}
+- An intelligent hyper-parameter search ?
+
+## Bayesian optimization using \texttt{\{rBayesianOptimization\}}
+```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+library(caret)
+library(rBayesianOptimization)
+set.seed(1234)
+
+df_households <- read.csv("data/realestate.csv")
+df_households_filtered <- df_households[, c(-1,-2)]
+colnames(df_households_filtered)[6] <- "price"
+# Data splitting.
+data_split <- initial_split(df_households_filtered, prop = .7)
+train <- training(data_split)
+test  <- testing(data_split)
+# Define a 10-fold cross validation procedure.
+train_control <- trainControl(method = "cv", number = 5)
+# Defining the fit of the SVM model
+svm_model_fit <- function(logC, logSigma) {
+  model <- train(price ~ ., data = train, method = "svmRadial", metric = "RMSE",
+                  trControl = train_control,tuneGrid = data.frame(C = exp(logC), sigma = exp(logSigma)))
+  list(Score = -getTrainPerf(mod)[, "TrainRMSE"], Pred = 0)
+}
+## Define the bounds and search for hyper-parameters.
+lower_bounds <- c(logC = -8, logSigma = -10)
+upper_bounds <- c(logC = 15, logSigma = -0.65)
+svm_bounds <- list(logC = c(lower_bounds[1], upper_bounds[1]), logSigma = c(lower_bounds[2], upper_bounds[2]))
+# svm_ba_search <- BayesianOptimization(svm_model_fit,
+#    bounds = svm_bounds,init_grid_dt = NULL, init_points = 0,n_iter = 4, verbose = TRUE)
+```
+
+## Light Gradient Boosting Machine (LightGBM)
+- Gradient boosting framework that uses tree based learning algorithms.
+ \vspace{2mm}
+- Used for both classification and regression tasks.
+ \vspace{2mm}
+- Leading algorithm in many machine learning competitions (Kaggle).
+\vspace{2mm}
+    \begin{itemize}
+      \item Faster training speed and higher efficiency
+      \item Lower memory usage
+      \item Highly scalable
+      \item Highly parallelizable
+      \item Better accuracy than any other boosting algorithms
 \end{itemize}
 
+## LightGBM using \texttt{\{lightgbm\}}
+```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+library(lightgbm)
+set.seed(1234)
 
-## Simple list
+data("iris")
+df <- iris
 
-\begin{itemize}
-  \item Kasun
-  \item Now this
-  \item And now this
+# Data preparation.
+df$Species <- as.numeric(as.factor(df$Species)) - 1
+# Data splitting.
+data_split <- initial_split(df, prop = .7)
+train <- training(data_split)
+test  <- testing(data_split)
+
+# Transforming to lightgbm data input format.
+dtrain <- lgb.Dataset(data = as.matrix(train[1:4]), label = as.matrix(train[,5]))
+dtest <- lgb.Dataset.create.valid(dtrain, data = as.matrix(test[, 1:4]), label = as.matrix(test[, 5]))
+valids <- list(test = dtest)
+# Defining the objective function for a multi-class problem.
+params <- list(objective = "multiclass", metric = "multi_error", num_class = 3)
+
+# Training lightgbm model.
+lightgbm_model <- lgb.train(params, dtrain,100, valids, min_data = 1,learning_rate = 1.0
+    ,early_stopping_rounds = 10)
+
+# Lightgbm predicts all probabilities for the 3 classes; use argmax() to get the classified class.
+lightgbm_predictions <- predict(lightgbm_model, as.matrix(test[, 1:4]), reshape = TRUE)
+```
+
+## Model Explainability
+- Majority of the machine learning models are black-box.
+ \vspace{2mm}
+- Interpreting and explaining model predictions.
+ \vspace{2mm}
+- Explainable machine learning (GDPR law: Right explanation)
+\vspace{2mm}
+    \begin{itemize}
+      \item Global and Local Interpretable models
+      \item \textbf{LIME} (Local Interpretable Model-Agnostic Explanations): \texttt{\{limer\}}
+      \item \textbf{SHAP} (SHapley Additive exPlanations): \texttt{\{shapr\}}
+      \item \textbf{LORE} (Rule-based Explanations)
+      \item \textbf{Anchor}
 \end{itemize}
 
-## Tables (using \LaTeX})
+## Model Explainability using \texttt{\{shapr\}}
+```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+library(xgboost)
+library(shapr)
+set.seed(1234)
+
+# We are explaining the prediction of household prices.
+df_households <- read.csv("data/realestate.csv")
+df_households_filtered <- df_households[, c(-1,-2)]
+colnames(df_households_filtered)[6] <- "price"
+
+data_split <- initial_split(df_households_filtered, prop = .7)
+train <- training(data_split)
+test  <- testing(data_split)
+
+features <- setdiff(names(train), "price")
+train_features <- as.matrix(train[, features])
+train_class <- as.matrix(train$price)
+test_features <- as.matrix(test[, features])
+
+# Fitting a basic xgboost model to the training data
+xgboost_model <- xgboost(data=train_features, label=train_class, nround=10, verbose = FALSE)
+
+# Prepare the data for explanation
+model_explainer <- shapr(train_features, xgboost_model)
+# Expected value without the prediction.
+expected_price <- mean(train_class)
+```
+
+
+## Model Explainability (2)
+```{r out.width="80%", out.height="70%", size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+
+explanation <- explain(test_features, approach = "empirical", 
+                       explainer = model_explainer, prediction_zero = expected_price)
+
+# Plot the resulting explanations for observations 1 and 6
+plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
+
+```
