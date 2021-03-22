@@ -1,31 +1,39 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.18)  21 MAR 2021 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.3)  23 MAR 2021 01:30
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**MLinR_slides_Rladies2021.tex
-(./MLinR_slides_Rladies2021.tex
+**./MLinR_slides_Rladies2021.tex
+(MLinR_slides_Rladies2021.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (/Users/kasun/Library/TinyTeX/texmf-dist/tex/
-latex/beamer/beamer.cls
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamer.cls"
 Document Class: beamer 2021/02/09 v3.61 A class for typesetting presentations
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (
-/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasemodes.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoo
+lbox/etoolbox.sty"
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count175
+\etb@tempcnta=\count179
 )
 \beamer@tempbox=\box47
-\beamer@tempcount=\count176
-\c@beamerpauses=\count177
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
-\beamer@slideinframe=\count178
-\beamer@minimum=\count179
+\beamer@tempcount=\count180
+\c@beamerpauses=\count181
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasedecode.sty"
+\beamer@slideinframe=\count182
+\beamer@minimum=\count183
 \beamer@decode@box=\box48
 )
 \beamer@commentbox=\box49
-\beamer@modecount=\count180
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+\beamer@modecount=\count184
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifpdf.sty"
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/iftex.sty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \headdp=\dimen138
@@ -51,41 +59,47 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@sectionbox=\box53
 \beamer@logobox=\box54
 \beamer@linebox=\box55
-\beamer@sectioncount=\count181
-\beamer@subsubsectionmax=\count182
-\beamer@subsectionmax=\count183
-\beamer@sectionmax=\count184
-\beamer@totalheads=\count185
-\beamer@headcounter=\count186
-\beamer@partstartpage=\count187
-\beamer@sectionstartpage=\count188
-\beamer@subsectionstartpage=\count189
-\beamer@animationtempa=\count190
-\beamer@animationtempb=\count191
-\beamer@xpos=\count192
-\beamer@ypos=\count193
-\beamer@ypos@offset=\count194
-\beamer@showpartnumber=\count195
-\beamer@currentsubsection=\count196
-\beamer@coveringdepth=\count197
-\beamer@sectionadjust=\count198
-\beamer@tocsectionnumber=\count199
+\beamer@sectioncount=\count185
+\beamer@subsubsectionmax=\count186
+\beamer@subsectionmax=\count187
+\beamer@sectionmax=\count188
+\beamer@totalheads=\count189
+\beamer@headcounter=\count190
+\beamer@partstartpage=\count191
+\beamer@sectionstartpage=\count192
+\beamer@subsectionstartpage=\count193
+\beamer@animationtempa=\count194
+\beamer@animationtempb=\count195
+\beamer@xpos=\count196
+\beamer@ypos=\count197
+\beamer@ypos@offset=\count198
+\beamer@showpartnumber=\count199
+\beamer@currentsubsection=\count266
+\beamer@coveringdepth=\count267
+\beamer@sectionadjust=\count268
+\beamer@tocsectionnumber=\count269
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseoptions.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
+etry/geometry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -95,53 +109,73 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen160
 \Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks16
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/base/size12.clo
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
+etry/geometry.cfg"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/size12.clo"
 File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgfcore.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/graphics.sty"
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-def/pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
-on.tex
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+systemlayer/pgfsys.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfrcs.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common.tex"
 \pgfutil@everybye=\toks17
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
-on-lists.tex))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-late
-x.def
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common-lists.tex"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-latex.def"
 \pgfutil@abb=\box56
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.
-tex (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfrcs.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/pgf.revision.tex")
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.cod
-e.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys.code.tex"
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
-.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks18
 \pgfkeys@temptoks=\toks19
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeysfilte
-red.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks20
 ))
 \pgf@x=\dimen166
@@ -156,49 +190,50 @@ red.code.tex
 \pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count269
-\c@pgf@countb=\count270
-\c@pgf@countc=\count271
-\c@pgf@countd=\count272
+\c@pgf@counta=\count273
+\c@pgf@countb=\count274
+\c@pgf@countc=\count275
+\c@pgf@countd=\count276
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count273
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+\pgf@sys@id@count=\count277
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgf.cfg"
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xet
-ex.def
-File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvi
-pdfmx.def
-File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
-
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-com
-mon-pdf.def
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
-)
-\pgfsys@objnum=\count274
 )))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoft
-path.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count275
-\pgfsyssoftpath@bigbuffer@items=\count276
+\pgfsyssoftpath@smallbuffer@items=\count278
+\pgfsyssoftpath@bigbuffer@items=\count279
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprot
-ocol.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-)) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcol
+or/xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-cfg/color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -207,48 +242,51 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.cod
-e.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcore.code.tex"
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.
-tex
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.
-tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.cod
-e.tex
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathcalc.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathutil.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen176
-\pgfmath@count=\count277
+\pgfmath@count=\count280
 \pgfmath@box=\box57
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-code.tex
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-basic.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-trigonometric.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-random.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-comparison.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-base.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-round.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-misc.code.tex)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.
-integerarithmetics.code.tex)))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code
-.tex
-\c@pgfmathroundto@lastzeros=\count278
-)) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.te
-x)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoin
-ts.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.basic.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.random.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.comparison.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.base.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.round.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.misc.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count281
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfint.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen177
 \pgf@picmaxx=\dimen178
@@ -265,145 +303,178 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@zx=\dimen189
 \pgf@zy=\dimen190
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
-construct.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen191
 \pgf@path@lasty=\dimen192
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
-usage.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescop
-es.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count279
+\pgf@picture@serial@count=\count282
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregrap
-hicstate.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen195
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
-sformations.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen196
 \pgf@pt@y=\dimen197
 \pgf@pt@temp=\dimen198
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequic
-k.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobje
-cts.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepath
-processing.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearro
-ws.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen199
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshad
-e.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count280
-\pgf@shadingcount=\count281
+\pgf@sys@shading@range@num=\count283
+\pgf@shadingcount=\count284
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimag
-e.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexte
-rnal.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box61
 ))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelaye
-rs.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretran
-sparency.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatt
-erns.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.
-code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorerdf.code.tex"
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/xxcolor.st
-y
+)))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/xxcolor.sty"
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count282
-\XC@countmixins=\count283
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+\XC@nummixins=\count285
+\XC@countmixins=\count286
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/atbegshi-ltx.sty"
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/hyperref.sty"
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/lt
+xcmds/ltxcmds.sty"
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.st
-y
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pd
+ftexcmds/pdftexcmds.sty"
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/in
+fwarerr/infwarerr.sty"
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kv
+setkeys/kvsetkeys.sty"
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
-sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kv
+definekeys/kvdefinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pd
+fescape/pdfescape.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyco
+lor/hycolor.sty"
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.st
-y
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/letl
+txmacro/letltxmacro.sty"
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/auxh
+ook/auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvop
+tions/kvoptions.sty"
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen257
-\Hy@linkcounter=\count284
-\Hy@pagecounter=\count285
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/pd1enc.def"
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-langpatche
-s.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/hyperref-langpatches.def"
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
 nguages
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/in
+tcalc/intcalc.sty"
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/et
+excmds/etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count286
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count289
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/puenc.def"
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4073.
 Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
@@ -416,20 +487,26 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count287
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\c@Hy@tempcnt=\count290
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/
+url.sty"
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen258
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bi
+tset/bitset.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bi
+gintcalc/bigintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count288
+\Fld@menulength=\count291
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -441,46 +518,50 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6100.
 Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
-\Hy@abspage=\count289
+\Hy@abspage=\count292
+
 
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (autodetected): hxetex.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box62
-\c@Hy@AnnotLevel=\count290
-\HyField@AnnotCount=\count291
-\Fld@listcount=\count292
-\c@bookmark@seq@number=\count293
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
-k.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/hpdftex.def"
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/atveryend-ltx.sty"
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounte
-r.sty
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/reru
+nfilecheck/rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/un
+iquecounter/uniquecounter.sty"
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaserequires.st
-y
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasecompatibili
-ty.sty) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasefon
-t.sty (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaserequires.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasecompatibility.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasefont.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks27
 \symAMSa=\mathgroup4
@@ -488,71 +569,179 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetranslator.
-sty (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator.st
-y
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sans
+mathaccent/sansmathaccent.sty"
+Package: sansmathaccent 2020/01/31
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma
+-script/scrlfile.sty"
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma
+-script/scrlfile-hook.sty"
+Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma
+-script/scrlogo.sty"
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+)))))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetranslator.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator.sty"
 Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
-)) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
-)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.
-sty)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count294
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasemisc.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetwoscreens.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseoverlay.sty"
+\beamer@argscount=\count295
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count295
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+\beamer@trivlistdepth=\count296
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count296
-\c@part=\count297
-\c@section=\count298
-\c@subsection=\count299
-\c@subsubsection=\count300
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-\beamer@framebox=\box63
-\beamer@frametitlebox=\box64
-\beamer@zoombox=\box65
-\beamer@zoomcount=\count301
-\beamer@zoomframecount=\count302
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetitle.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasesection.sty"
+\c@lecture=\count297
+\c@part=\count298
+\c@section=\count299
+\c@subsection=\count300
+\c@subsubsection=\count301
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseframe.sty"
+\beamer@framebox=\box62
+\beamer@frametitlebox=\box63
+\beamer@zoombox=\box64
+\beamer@zoomcount=\count302
+\beamer@zoomframecount=\count303
 \beamer@frametextheight=\dimen261
-\c@subsectionslide=\count303
+\c@subsectionslide=\count304
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
 \beamer@envbody=\toks28
 \framewidth=\dimen262
-\c@framenumber=\count304
+\c@framenumber=\count305
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseverbatim.st
-y
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseverbatim.sty"
 \beamer@verbatimfileout=\write4
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseframesize.s
-ty
-\beamer@splitbox=\box66
-\beamer@autobreakcount=\count305
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseframesize.sty"
+\beamer@splitbox=\box65
+\beamer@autobreakcount=\count306
 \beamer@autobreaklastheight=\dimen263
 \beamer@frametitletoks=\toks29
 \beamer@framesubtitletoks=\toks30
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseframecompon
-ents.sty
-\beamer@footins=\box67
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-\beamer@frameboxcopy=\box68
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetemplates.s
-ty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseframecomponents.sty"
+\beamer@footins=\box66
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasecolor.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasenotes.sty"
+\beamer@frameboxcopy=\box67
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetoc.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetemplates.sty"
 \beamer@sbttoks=\toks31
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseauxtemplate
-s.sty (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseboxes
-.sty
-\bmb@box=\box69
-\bmb@colorbox=\box70
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseauxtemplates.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseboxes.sty"
+\bmb@box=\box68
+\bmb@colorbox=\box69
 \bmb@boxwidth=\dimen264
 \bmb@boxheight=\dimen265
 \bmb@prevheight=\dimen266
@@ -563,62 +752,75 @@ s.sty (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseboxes
 )
 \beamer@blockheadheight=\dimen271
 ))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaselocalstruct
-ure.sty (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaselocalstructure.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/late
+x-tools/enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks32
 )
 \beamer@bibiconwidth=\skip55
-\c@figure=\count306
-\c@table=\count307
+\c@figure=\count307
+\c@table=\count308
 \abovecaptionskip=\skip56
 \belowcaptionskip=\skip57
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasenavigation.
-sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasenavigation.sty"
 \beamer@section@min@dim=\dimen272
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasetheorems.st
-y (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetheorems.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsmath.sty"
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip58
+
 For additional information on amsmath, use the `?' option.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks33
 \ex@=\dimen273
-)) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen274
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count308
+\inf@bad=\count309
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count309
-\leftroot@=\count310
+\uproot@=\count310
+\leftroot@=\count311
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count311
-\DOTSCASE@=\count312
+\classnum@=\count312
+\DOTSCASE@=\count313
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box71
-\strutbox@=\box72
+\Mathstrutbox@=\box70
+\strutbox@=\box71
 \big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count313
-\c@MaxMatrixCols=\count314
+\macc@depth=\count314
+\c@MaxMatrixCols=\count315
 \dotsspace@=\muskip17
-\c@parentequation=\count315
-\dspbrk@lvl=\count316
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
 \tag@help=\toks34
-\row@=\count317
-\column@=\count318
-\maxfields@=\count319
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
 \andhelp@=\toks35
 \eqnshift@=\dimen276
 \alignsep@=\dimen277
@@ -632,7 +834,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsc
+ls/amsthm.sty"
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks38
 \thm@bodyfont=\toks39
@@ -644,47 +848,53 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip63
 \dth@everypar=\toks43
 )
-\c@theorem=\count320
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasethemes.st
-y))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerthemedefault.st
-y
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerfontthemedefaul
-t.sty)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamercolorthemedefau
-lt.sty)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerinnerthemedefau
-lt.sty
+\c@theorem=\count321
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasethemes.sty"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerthemedefault.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerfontthemedefault.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamercolorthemedefault.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerinnerthemedefault.sty"
 \beamer@dima=\dimen282
 \beamer@dimb=\dimen283
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerouterthemedefau
-lt.sty))) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfp
-ages.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerouterthemedefault.sty")))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfpages.sty"
 Package: pgfpages 2011/01/05 ver 0.02
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/late
+x-tools/calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count321
-\calc@Bcount=\count322
+\calc@Acount=\count322
+\calc@Bcount=\count323
 \calc@Adimen=\dimen284
 \calc@Bdimen=\dimen285
 \calc@Askip=\skip64
 \calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count323
+\calc@Ccount=\count324
 \calc@Cskip=\skip66
 )
-\pgf@logicalpages=\count324
-\pgf@firstshipout=\count325
-\pgf@lastshipout=\count326
-\pgf@currentshipout=\count327
-\pgf@cpn=\count328
-\pgf@shipoutnextto=\count329
+\pgf@logicalpages=\count325
+\pgf@firstshipout=\count326
+\pgf@lastshipout=\count327
+\pgf@currentshipout=\count328
+\pgf@cpn=\count329
+\pgf@shipoutnextto=\count330
 \pgfphysicalheight=\dimen286
 \pgfphysicalwidth=\dimen287
-\pgfpages@shipoutbox=\box73
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+\pgfpages@shipoutbox=\box72
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/l
+modern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -718,164 +928,142 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifxetex.sty"
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifluatex.sty"
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/fixltx2e.sty"
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
 
 Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                All fixes are now in the LaTeX kernel.
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/xelatex/mathspec/mathspec.sty
-Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
-r XeLaTeX)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
-
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
-f
-File: l3backend-xetex.def 2021-03-02 L3 backend support: XeTeX
-(|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count330
-\l__color_backend_stack_int=\count331
-\g__graphics_track_int=\count332
-\l__pdf_internal_box=\box74
-\g__pdf_backend_object_int=\count333
-\g__pdf_backend_annotation_int=\count334
-\g__pdf_backend_link_int=\count335
-))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-202
-0-10-01.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-gen
-eric.tex)))
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count336
-\l__fontspec_language_int=\count337
-\l__fontspec_strnum_int=\count338
-\l__fontspec_tmp_int=\count339
-\l__fontspec_tmpa_int=\count340
-\l__fontspec_tmpb_int=\count341
-\l__fontspec_tmpc_int=\count342
-\l__fontspec_em_int=\count343
-\l__fontspec_emdef_int=\count344
-\l__fontspec_strong_int=\count345
-\l__fontspec_strongdef_int=\count346
-\l__fontspec_tmpa_dim=\dimen288
-\l__fontspec_tmpb_dim=\dimen289
-\l__fontspec_tmpc_dim=\dimen290
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/fontenc.sty"
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (
-/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/User
-s/kasun/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks44
-\XKV@tempa@toks=\toks45
-)
-\XKV@depth=\count347
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+12.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\c@eu@=\count348
-\c@eu@i=\count349
-\c@mkern=\count350
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamertheme-metropolis/beame
-rthememetropolis.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerthememetropolis.sty"
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgfo
+pts/pgfopts.sty"
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code
-.tex))
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfkeys.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"))
 \pgfopts@list@add@a@toks=\toks46
 \pgfopts@list@add@b@toks=\toks47
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamertheme-metropolis/beame
-rinnerthememetropolis.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerinnerthememetropolis.sty"
 Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (
-/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+frontendlayer/tikz.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgf.sty"
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshape
-s.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box73
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.
-code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
-rsion-0-65.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen291
-\pgf@nodesepend=\dimen292
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-ve
-rsion-1-18.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
-)) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/Users
-/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.
-tex
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgffor.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+math/pgfmath.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgffor.code.tex"
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen293
-\pgffor@skip=\dimen294
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex")
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tik
-z.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/frontendlayer/tikz/tikz.code.tex"
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibrarypl
-othandlers.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/libraries/pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count351
-\pgfplotmarksize=\dimen295
+\pgf@plot@mark@count=\count331
+\pgfplotmarksize=\dimen292
 )
-\tikz@lastx=\dimen296
-\tikz@lasty=\dimen297
-\tikz@lastxsaved=\dimen298
-\tikz@lastysaved=\dimen299
-\tikz@lastmovetox=\dimen300
-\tikz@lastmovetoy=\dimen301
-\tikzleveldistance=\dimen302
-\tikzsiblingdistance=\dimen303
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count352
-\tikznumberofchildren=\count353
-\tikznumberofcurrentchild=\count354
-\tikz@fig@count=\count355
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count332
+\tikznumberofchildren=\count333
+\tikznumberofcurrentchild=\count334
+\tikz@fig@count=\count335
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematri
-x.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count356
-\pgfmatrixcurrentcolumn=\count357
-\pgf@matrix@numberofcolumns=\count358
+\pgfmatrixcurrentrow=\count336
+\pgfmatrixcurrentcolumn=\count337
+\pgf@matrix@numberofcolumns=\count338
 )
-\tikz@expandcount=\count359
+\tikz@expandcount=\count339
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/lib
-raries/tikzlibrarytopaths.code.tex
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 \metropolis@titleseparator@linewidth=\skip67
@@ -885,208 +1073,138 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \metropolis@blockadjust=\skip71
 \metropolis@parskip=\skip72
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamertheme-metropolis/beame
-routerthememetropolis.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerouterthememetropolis.sty"
 Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
 \metropolis@frametitle@padding=\skip73
 \metropolis@progressinheadfoot=\skip74
 \metropolis@progressinheadfoot@linewidth=\skip75
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamertheme-metropolis/beame
-rcolorthememetropolis.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamercolorthememetropolis.sty"
 Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/beamertheme-metropolis/beame
-rfontthememetropolis.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerfontthememetropolis.sty"
 Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
-\c@fontsnotfound=\count360
-
-Package fontspec Info: Fira Sans Light scale = 0.8489466454334375.
 
 
-Package fontspec Info: Fira Sans Light scale = 0.8489466454334375.
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
+aTeX to use the Fira fonts on input line 95.
 
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/upqu
+ote/upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
 
-Package fontspec Info: Fira Sans Light scale = 0.8489466454334375.
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/microtype.sty"
+Package: microtype 2021/02/25 v2.8b Micro-typographical refinements (RS)
+\MT@toks=\toks50
+\MT@count=\count340
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen301
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count341
 
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/microtype-pdftex.def"
+File: microtype-pdftex.def 2021/02/25 v2.8b Definitions specific to pdftex (RS)
 
-Package fontspec Info: Fira Sans scale = 0.8425024912474574.
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip76
+)
+Package microtype Info: Loading configuration file microtype.cfg.
 
-
-Package fontspec Info: Fira Sans scale = 0.8425024912474574.
-
-
-Package fontspec Info: Fira Sans Light Italic scale = 0.8489466454334375.
-
-
-Package fontspec Info: Fira Sans Light Italic scale = 0.8489466454334375.
-
-
-Package fontspec Info: Fira Sans Italic scale = 0.8425024912474574.
-
-
-Package fontspec Info: Fira Sans Italic scale = 0.8425024912474574.
-
-
-Package fontspec Info: Font family 'FiraSansLight(0)' created for font 'Fira
-(fontspec)             Sans Light' with options
-(fontspec)             [Ligatures=TeX,Scale=MatchLowercase,Ligatures=TeX,Italic
-Font={Fira
-(fontspec)             Sans Light Italic},BoldFont={Fira
-(fontspec)             Sans},BoldItalicFont={Fira Sans Italic}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8489466454334375]"Fira Sans
-(fontspec)             Light/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8489466454334375]"Fira Sans
-(fontspec)             Light/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
-t;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8425024912474574]"Fira
-(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[0.8425024912474574]"Fira
-(fontspec)             Sans/OT:script=latn;language=dflt;+smcp;mapping=tex-text
-;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.8489466454334375]"Fira Sans Light
-(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[0.8489466454334375]"Fira Sans Light
-(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-te
-xt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.8425024912474574]"Fira Sans
-(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[0.8425024912474574]"Fira Sans
-(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-te
-xt;"
-
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 10.18744pt on input line 95.
-
-Package fontspec Info: Fira Mono scale = 0.842507316908392.
-
-
-Package fontspec Info: Could not resolve font "Fira Mono Medium/I" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Fira Mono/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Fira Mono scale = 0.842507316908392.
-
-
-Package fontspec Info: Fira Mono Medium scale = 0.8409125391041743.
-
-
-Package fontspec Info: Fira Mono/BI scale = 0.8409125391041743.
-
-
-Package fontspec Info: Font family 'FiraMono(0)' created for font 'Fira Mono'
-(fontspec)             with options
-(fontspec)             [Ligatures=TeX,Scale=MatchLowercase,WordSpace={1,0,0},Hy
-phenChar=None,PunctuationSpace=WordSpace,BoldFont={Fira
-(fontspec)             Mono Medium}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.842507316908392]"Fira
-(fontspec)             Mono/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8409125391041743]"Fira Mono
-(fontspec)             Medium/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.8409125391041743]"Fira
-(fontspec)             Mono/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
-)) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/microtype.cfg"
+File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/natb
+ib/natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip76
-\bibsep=\skip77
+\bibhang=\skip77
+\bibsep=\skip78
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count361
+\c@NAT@ctr=\count342
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 58.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fanc
+yvrb/fancyvrb.sty"
 Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count362
+\FV@CodeLineNo=\count343
 \FV@InFile=\read3
-\FV@TabBox=\box80
-\c@FancyVerbLine=\count363
-\FV@StepNumber=\count364
+\FV@TabBox=\box78
+\c@FancyVerbLine=\count344
+\FV@StepNumber=\count345
 \FV@OutFile=\write5
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fram
+ed/framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip78
-\fb@frw=\dimen304
-\fb@frh=\dimen305
-\FrameRule=\dimen306
-\FrameSep=\dimen307
-) (/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
+\OuterFrameSep=\skip79
+\fb@frw=\dimen302
+\fb@frh=\dimen303
+\FrameRule=\dimen304
+\FrameSep=\dimen305
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subf
+ig/subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capt
+ion/caption.sty"
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capt
+ion/caption3.sty"
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen308
-\captionmargin@=\dimen309
-\captionwidth=\dimen310
-\caption@tempdima=\dimen311
-\caption@indent=\dimen312
-\caption@parindent=\dimen313
-\caption@hangindent=\dimen314
+\captionmargin=\dimen306
+\captionmargin@=\dimen307
+\captionwidth=\dimen308
+\caption@tempdima=\dimen309
+\caption@indent=\dimen310
+\caption@parindent=\dimen311
+\caption@hangindent=\dimen312
 Package caption Info: beamer document class detected.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/caption/caption-beamer.sto
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capt
+ion/caption-beamer.sto"
 File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
  beamer document classes (AR)
 ))
-\c@caption@flags=\count365
-\c@continuedfloat=\count366
+\c@caption@flags=\count346
+\c@continuedfloat=\count347
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 )
-\c@KVtest=\count367
-\sf@farskip=\skip79
-\sf@captopadj=\dimen315
-\sf@capskip=\skip80
-\sf@nearskip=\skip81
-\c@subfigure=\count368
-\c@subfigure@save=\count369
-\c@depth=\count370
-\c@subtable=\count371
-\c@subtable@save=\count372
-\sf@top=\skip82
-\sf@bottom=\skip83
-) (./MLinR_slides_Rladies2021.aux)
+\c@KVtest=\count348
+\sf@farskip=\skip80
+\sf@captopadj=\dimen313
+\sf@capskip=\skip81
+\sf@nearskip=\skip82
+\c@subfigure=\count349
+\c@subfigure@save=\count350
+\c@depth=\count351
+\c@subtable=\count352
+\c@subtable@save=\count353
+\sf@top=\skip83
+\sf@bottom=\skip84
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3ba
+ckend/l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count354
+\l__pdf_internal_box=\box79
+) (MLinR_slides_Rladies2021.aux)
 \openout1 = `MLinR_slides_Rladies2021.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
@@ -1098,13 +1216,6 @@ LaTeX Font Info:    ... okay on input line 163.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
 LaTeX Font Info:    ... okay on input line 163.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-63.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 163.
 LaTeX Font Info:    ... okay on input line 163.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
 LaTeX Font Info:    ... okay on input line 163.
@@ -1114,10 +1225,11 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
 LaTeX Font Info:    ... okay on input line 163.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
 LaTeX Font Info:    ... okay on input line 163.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1148,22 +1260,49 @@ LaTeX Font Info:    ... okay on input line 163.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/context/ba
+se/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen314
+\scratchbox=\box80
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen315
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks52
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epst
+opdf-pkg/epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
 Package hyperref Info: Link coloring OFF on input line 163.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/nameref.sty"
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refc
+ount/refcount.sty"
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestr
-ing.sty
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ge
+ttitlestring/gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count373
+\c@section@level=\count361
 )
 LaTeX Info: Redefining \ref on input line 163.
 LaTeX Info: Redefining \pageref on input line 163.
 LaTeX Info: Redefining \nameref on input line 163.
-(./MLinR_slides_Rladies2021.out) (./MLinR_slides_Rladies2021.out)
+ (MLinR_slides_Rladies2021.out)
+(MLinR_slides_Rladies2021.out)
 \@outlinefile=\write6
 \openout6 = `MLinR_slides_Rladies2021.out'.
 
@@ -1172,143 +1311,142 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 163.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/FiraSansLight(0)/m/n on input line
- 163.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 163.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/FiraSansLight(0)/b/n on input line
- 163.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 163.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/FiraSansLight(0)/m/n --> TU/lmr/m/n on input line 1
-63.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 163.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
-163.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/FiraSansLight(0)/b/n on input line 
-163.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 163.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/FiraSansLight(0)/m/n on input line 
-163.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/FiraSansLight(0)/m/n on input line
- 163.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 163.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/FiraSansLight(0)/m/it on input line
- 163.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> TU/FiraSansLight(0)/m/it on input lin
-e 163.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 163.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/FiraMono(0)/m/n on input line 163.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/FiraMono(0)/m/n on input line 163.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 163.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
-input line 163.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 163.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
-n input line 163.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/FiraSansLight(0)/b/n --> TU/lmr/b/n on input line 1
-63.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/FiraSansLight(0)/b/n --> TU/FiraSansLight(0)/b/n on 
-input line 163.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/FiraSansLight(0)/m/n --> TU/FiraSansLight(0)/b/n on 
-input line 163.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/FiraSansLight(0)/m/it --> TU/FiraSansLight(0)/b/it o
-n input line 163.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/b/n on input line
- 163.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 163.
 
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator-basic-
-dictionary-English.dict
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator-biblio
-graphy-dictionary-English.dict
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-bibliography-dictionary-English.dict"
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator-enviro
-nment-dictionary-English.dict
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-environment-dictionary-English.dict"
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator-months
--dictionary-English.dict
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-months-dictionary-English.dict"
 Dictionary: translator-months-dictionary, Language: English 
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator-number
-s-dictionary-English.dict
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-numbers-dictionary-English.dict"
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/translator/translator-theore
-m-dictionary-English.dict
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+LaTeX Info: Redefining \microtypecontext on input line 163.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 163.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-(./MLinR_slides_Rladies2021.nav)
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.09372pt on input line 163.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 6.79163pt on input line 163.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 14.6699pt on input line 168.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 14.55836pt on input line 168.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 12.22491pt on input line 168.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 9.29602pt on input line 168.
 
+(MLinR_slides_Rladies2021.nav)
 Overfull \vbox (16.67491pt too high) detected at line 168
  []
 
 [1
 
-]
-File: images/kasun.png Graphic file (type bmp)
-<images/kasun.png>
+{/Users/kasun/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdft
+ex.map}]
+<images/kasun.png, id=26, 1443.3925pt x 805.0075pt>
+File: images/kasun.png Graphic file (type png)
+<use images/kasun.png>
+Package pdftex.def Info: images/kasun.png  used on input line 178.
+(pdftex.def)             Requested size: 317.54733pt x 177.1022pt.
 
-Overfull \hbox (10.25745pt too wide) in paragraph at lines 178--178
+Overfull \hbox (10.25746pt too wide) in paragraph at lines 178--178
  [] 
  []
 
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 3.39581pt on input line 178.
 [2
 
-]
-LaTeX Font Info:    Trying to load font information for OT1+FiraSansLight(0) on
- input line 181.
-LaTeX Font Info:    No file OT1FiraSansLight(0).fd. on input line 181.
+ <./images/kasun.png>]
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+181.
 
-LaTeX Font Warning: Font shape `OT1/FiraSansLight(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 181.
-
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+t1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
 81.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+mllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 181.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+mslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 181.
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+mxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1319,176 +1457,221 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 181.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 181
 .
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 181
 .
-(/Users/kasun/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 10.18744pt on input line 181.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 6.79163pt on input line 181.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 5.09372pt on input line 181.
-[3
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+ [3
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 12.13197pt on input line 213.
-[4
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+213.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+s1lmss.fd"
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [4
+
+] [5
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 9.22536pt on input line 250.
-[5
-
-]
-File: images/datascience.jpeg Graphic file (type bmp)
-<images/datascience.jpeg>
+<images/datascience.jpeg, id=54, 996.72375pt x 903.375pt>
+File: images/datascience.jpeg Graphic file (type jpg)
+<use images/datascience.jpeg>
+Package pdftex.def Info: images/datascience.jpeg  used on input line 267.
+(pdftex.def)             Requested size: 135.28192pt x 122.61201pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 9.29602pt on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 8.48953pt on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 267.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 267.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 5.94267pt on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/n' will be
-(Font)              scaled to size 4.24477pt on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 8.48953pt on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 5.94267pt on input line 267.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/m/it' will be
-(Font)              scaled to size 4.24477pt on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+
+Overfull \vbox (9.55876pt too high) detected at line 267
+ []
+
 [6
 
-]
-File: images/osemn.png Graphic file (type bmp)
-<images/osemn.png>
-[7
+ <./images/datascience.jpeg (PNG copy)>]
+<images/osemn.png, id=61, 878.28125pt x 459.7175pt>
+File: images/osemn.png Graphic file (type png)
+<use images/osemn.png>
+Package pdftex.def Info: images/osemn.png  used on input line 283.
+(pdftex.def)             Requested size: 245.82326pt x 128.67091pt.
+ [7
 
-]
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 10.11017pt on input line 307.
-LaTeX Font Info:    Font shape `TU/FiraSansLight(0)/b/n' will be
-(Font)              scaled to size 10.10999pt on input line 307.
-[8
+ <./images/osemn.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+07.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [8
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 5.05508pt on input line 7.
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/b/n' will be
-(Font)              scaled to size 5.04547pt on input line 8.
-
-LaTeX Font Warning: Font shape `TU/FiraMono(0)/m/it' undefined
-(Font)              using `TU/FiraMono(0)/m/n' instead on input line 12.
-
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/it' will be
-(Font)              scaled to size 5.05508pt on input line 15.
+ (MLinR_slides_Rladies2021.vrb
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <6> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 8.
 )
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/b/n' will be
-(Font)              scaled to size 12.10912pt on input line 344.
-[9
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 344.
+ [9
 
-]
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 9.22552pt on input line 373.
-[10
+] [10
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [11
+
+(MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (0.8643pt too high) detected at line 412
+ []
+
+[11
 
 ] [12
 
-] [13
+]
+Overfull \vbox (3.49774pt too high) detected at line 474
+ []
+
+[13
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-1.pdf, id=112, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-1.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-1.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-1.pdf  used on input line 17.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (2.65154pt too high) detected at line 496
+Overfull \vbox (5.05173pt too high) detected at line 496
  []
 
 [14
 
-]
+ <./figs/unnamed-chunk-1.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-2.pdf, id=124, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-2.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-2.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-2.pdf  used on input line 18.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (10.70149pt too high) detected at line 519
+Overfull \vbox (13.10168pt too high) detected at line 519
  []
 
 [15
 
-]
+ <./figs/unnamed-chunk-2.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-3.pdf, id=137, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-3.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-3.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-3.pdf  used on input line 19.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (18.75145pt too high) detected at line 543
+Overfull \vbox (21.15164pt too high) detected at line 543
  []
 
 [16
 
-]
+ <./figs/unnamed-chunk-3.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+16.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+s1lmtt.fd"
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<figs/unnamed-chunk-4.pdf, id=150, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-4.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-4.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-4.pdf  used on input line 20.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (26.8014pt too high) detected at line 568
+Overfull \vbox (29.2016pt too high) detected at line 568
  []
 
 [17
 
-] [18
+ <./figs/unnamed-chunk-4.pdf>] [18
 
 ]
-File: images/data_exploration.png Graphic file (type bmp)
-<images/data_exploration.png>
-[19
+<images/data_exploration.png, id=170, 1445.4pt x 801.99625pt>
+File: images/data_exploration.png Graphic file (type png)
+<use images/data_exploration.png>
+Package pdftex.def Info: images/data_exploration.png  used on input line 611.
+(pdftex.def)             Requested size: 276.54764pt x 153.44553pt.
+ [19
 
-]
-File: images/daily_seasonal.png Graphic file (type bmp)
-<images/daily_seasonal.png>
-[20
+ <./images/data_exploration.png (PNG copy)>]
+<images/daily_seasonal.png, id=178, 752.8125pt x 564.60938pt>
+File: images/daily_seasonal.png Graphic file (type png)
+<use images/daily_seasonal.png>
+Package pdftex.def Info: images/daily_seasonal.png  used on input line 625.
+(pdftex.def)             Requested size: 169.00792pt x 126.75594pt.
+ [20
 
-]
-File: images/model_validation.PNG Graphic file (type bmp)
-<images/model_validation.PNG>
+ <./images/daily_seasonal.png (PNG copy)>]
+<images/model_validation.PNG, id=185, 525.76425pt x 364.9635pt>
+File: images/model_validation.PNG Graphic file (type png)
+<use images/model_validation.PNG>
+Package pdftex.def Info: images/model_validation.PNG  used on input line 645.
+(pdftex.def)             Requested size: 184.37323pt x 127.98416pt.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 645--645
+Overfull \hbox (23.49976pt too wide) in paragraph at lines 645--645
 [][] 
  []
 
 [21
 
-]
-Overfull \vbox (2.63031pt too high) detected at line 673
+ <./images/model_validation.PNG>]
+Overfull \vbox (38.8175pt too high) detected at line 673
  []
 
 [22
@@ -1496,8 +1679,8 @@ Overfull \vbox (2.63031pt too high) detected at line 673
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (25.59096pt too high) detected at line 723
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (28.23784pt too high) detected at line 723
  []
 
 [23
@@ -1505,18 +1688,19 @@ Overfull \vbox (25.59096pt too high) detected at line 723
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [24
+ (MLinR_slides_Rladies2021.vrb) [24
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [25
+ (MLinR_slides_Rladies2021.vrb)
+[25
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (55.38289pt too high) detected at line 850
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (58.22246pt too high) detected at line 850
  []
 
 [26
@@ -1524,20 +1708,23 @@ Overfull \vbox (55.38289pt too high) detected at line 850
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-9.pdf, id=224, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-9.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-9.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-9.pdf  used on input line 17.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (28.80495pt too high) detected at line 877
+Overfull \vbox (31.48497pt too high) detected at line 877
  []
 
 [27
 
-]
+ <./figs/unnamed-chunk-9.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (8.00316pt too high) detected at line 919
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (10.6623pt too high) detected at line 919
  []
 
 [28
@@ -1545,20 +1732,23 @@ Overfull \vbox (8.00316pt too high) detected at line 919
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-11.pdf, id=243, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-11.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-11.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-11.pdf  used on input line 17.
+(pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
 )
-Overfull \vbox (27.23735pt too high) detected at line 941
+Overfull \vbox (29.54173pt too high) detected at line 941
  []
 
 [29
 
-]
+ <./figs/unnamed-chunk-11.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (16.22292pt too high) detected at line 984
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (19.21355pt too high) detected at line 984
  []
 
 [30
@@ -1566,8 +1756,8 @@ Overfull \vbox (16.22292pt too high) detected at line 984
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (22.92525pt too high) detected at line 1028
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (25.13089pt too high) detected at line 1028
  []
 
 [31
@@ -1575,8 +1765,8 @@ Overfull \vbox (22.92525pt too high) detected at line 1028
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (22.92525pt too high) detected at line 1072
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (25.13089pt too high) detected at line 1072
  []
 
 [32
@@ -1586,56 +1776,66 @@ Overfull \vbox (22.92525pt too high) detected at line 1072
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-15.pdf, id=288, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-15.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-15.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-15.pdf  used on input line 21.
+(pdftex.def)             Requested size: 184.36876pt x 122.61255pt.
 )
-Overfull \vbox (10.24739pt too high) detected at line 1122
+Overfull \vbox (12.7275pt too high) detected at line 1122
  []
 
 [34
 
-]
+ <./figs/unnamed-chunk-15.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-16.pdf, id=303, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-16.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-16.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-16.pdf  used on input line 19.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (18.75145pt too high) detected at line 1146
+Overfull \vbox (21.1176pt too high) detected at line 1146
  []
 
 [35
 
-]
+ <./figs/unnamed-chunk-16.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-17.pdf, id=315, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-17.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-17.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-17.pdf  used on input line 20.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (26.78325pt too high) detected at line 1171
+Overfull \vbox (29.2016pt too high) detected at line 1171
  []
 
 [36
 
-] [37
+ <./figs/unnamed-chunk-17.pdf>] [37
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [38
+ (MLinR_slides_Rladies2021.vrb) [38
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [39
+
+(MLinR_slides_Rladies2021.vrb) [39
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (64.03232pt too high) detected at line 1317
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (66.46394pt too high) detected at line 1317
  []
 
 [40
@@ -1643,34 +1843,47 @@ Overfull \vbox (64.03232pt too high) detected at line 1317
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-21.pdf, id=355, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-21.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-21.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-21.pdf  used on input line 22.
+(pdftex.def)             Requested size: 184.36876pt x 122.61255pt.
 )
-Overfull \vbox (17.9768pt too high) detected at line 1344
+Overfull \vbox (20.2294pt too high) detected at line 1344
  []
 
 [41
 
-]
+ <./figs/unnamed-chunk-21.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [42
+ (MLinR_slides_Rladies2021.vrb) [42
 
 ] [43
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [44
+
+(MLinR_slides_Rladies2021.vrb)
+Underfull \hbox (badness 10000) in paragraph at lines 1433--1433
+ [][]\T1/lmss/bx/n/14.4 (+20) Bayesian optimization using 
+ []
+
+
+Overfull \vbox (21.56421pt too high) detected at line 1433
+ []
+
+[44
 
 ] [45
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (6.15126pt too high) detected at line 1498
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (8.91426pt too high) detected at line 1498
  []
 
 [46
@@ -1680,29 +1893,28 @@ Overfull \vbox (6.15126pt too high) detected at line 1498
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb) [48
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (0.8643pt too high) detected at line 1561
+ []
+
+[48
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-(./MLinR_slides_Rladies2021.vrb
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-26.pdf, id=410, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-26.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-26.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-26.pdf  used on input line 16.
+(pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
 )
-Overfull \vbox (19.1874pt too high) detected at line 1582
+Overfull \vbox (21.52582pt too high) detected at line 1582
  []
 
 [49
 
-] (./MLinR_slides_Rladies2021.bbl
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 1.
-
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
-) [50
+ <./figs/unnamed-chunk-26.pdf>] [50
 
 ]
 \tf@nav=\write7
@@ -1714,21 +1926,36 @@ Package natbib Warning: Empty `thebibliography' environment on input line 8.
 \tf@snm=\write9
 \openout9 = `MLinR_slides_Rladies2021.snm'.
 
-(./MLinR_slides_Rladies2021.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+ (MLinR_slides_Rladies2021.aux)
 Package rerunfilecheck Info: File `MLinR_slides_Rladies2021.out' has not change
 d.
-(rerunfilecheck)             Checksum: 68B205B7C7D9F46121FEB48FE1F84366;196.
+(rerunfilecheck)             Checksum: 47949AC7C3DCEDDDEEFE3CD50587DDA1;103.
  ) 
 Here is how much of TeX's memory you used:
- 29233 strings out of 478922
- 609545 string characters out of 5866020
- 966721 words of memory out of 5000000
- 48362 multiletter control sequences out of 15000+600000
- 413091 words of font info for 108 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 112i,13n,172p,1827b,891s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28830 strings out of 481270
+ 568375 string characters out of 2906482
+ 854224 words of memory out of 3000000
+ 45051 multiletter control sequences out of 15000+200000
+ 499422 words of font info for 161 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 131i,13n,132p,1829b,865s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvi
+ps/lm/lm-ts1.enc}{/Users/kasun/Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/enc/dvips/lm/lm-ec.enc}</Users/kasun/Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/lm/lmss10.pfb></Users/kasun/Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss12.pfb></Users/kasu
+n/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss8
+.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/install/fonts/type
+1/public/lm/lmssbx10.pfb></Users/kasun/Library/Application Support/MiKTeX/texmf
+s/install/fonts/type1/public/lm/lmtk10.pfb></Users/kasun/Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb></Users/kasun/Libr
+ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt12.pfb>
+</Users/kasun/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/lm/lmtt8.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/instal
+l/fonts/type1/public/lm/lmtti10.pfb>
+Output written on MLinR_slides_Rladies2021.pdf (50 pages, 1616411 bytes).
+PDF statistics:
+ 498 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 61576 words of extra memory for PDF output out of 61914 (max. 10000000)
 
-Output written on MLinR_slides_Rladies2021.pdf (50 pages).

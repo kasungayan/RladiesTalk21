@@ -4,10 +4,7 @@ subtitle: R-Ladies Colombo
 author: Kasun Bandara
 date: 29 March, 2021
 institute: Melbourne Centre for Data Science, University of Melbourne, Australia.
-bibliography: references.bib
-biblio-style: abbrvnat
 beameroption: "show notes"
-biblio-title: References
 output: 
   binb::metropolis:
     toc: false
@@ -824,3 +821,7 @@ explanation <- explain(test_features, approach = "empirical",
 plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 
 ```
+
+## References
+
+[1] 
