@@ -232,7 +232,7 @@
     Renewable energy production forecasting (solar)
   \end{itemize}
 \item
-  Competition Fanatic !
+  Competition Fanatic
 
   \begin{itemize}
   \tightlist
@@ -481,44 +481,7 @@ Known as the O.S.E.M.N. framework.
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(GGally)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Loading required package: ggplot2
-\end{verbatim}
-
-\begin{verbatim}
-## Registered S3 method overwritten by 'GGally':
-##   method from   
-##   +.gg   ggplot2
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(dplyr)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## 
-## Attaching package: 'dplyr'
-\end{verbatim}
-
-\begin{verbatim}
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-\end{verbatim}
-
-\begin{verbatim}
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
 
 \CommentTok{# Plotting the feature correlations.}
@@ -587,15 +550,6 @@ Known as the O.S.E.M.N. framework.
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(caret)}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{verbatim}
-## Loading required package: lattice
-\end{verbatim}
-
-\begin{Shaded}
-\begin{Highlighting}[]
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
 
 \CommentTok{# Build a decision tree model using rpart (Recursive Partitioning And Regression Trees)}
@@ -1630,7 +1584,41 @@ Known as the O.S.E.M.N. framework.
 \begin{frame}{References}
 \protect\hypertarget{references}{}
 
-{[}1{]}
+\tiny
+
+{[}1{]} Hadley Wickham (2021). rvest: Easily Harvest (Scrape) Web Pages.
+R package version 1.0.0. \url{https://CRAN.R-project.org/package=rvest}
+
+{[}2{]} Mark van der Loo (2021). simputation: Simple Imputation. R
+package version 0.2.6.
+\url{https://CRAN.R-project.org/package=simputation}
+
+{[}3{]}
+\url{https://cran.r-project.org/web/packages/simputation/vignettes/intro.html}
+
+{[}4{]}
+\url{https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/}
+
+{[}5{]}
+\url{https://www.kaggle.com/zurfer/how-to-use-principle-component-analysis-in-r}
+
+{[}6{]} Miron B. Kursa, Witold R. Rudnicki (2010). Feature Selection
+with the Boruta Package. Journal of Statistical Software, 36(11), 1-13.
+URL \url{http://www.jstatsoft.org/v36/i11/}
+
+{[}7{]} Max Kuhn (2020). caret: Classification and Regression Training.
+R package version 6.0-86. \url{https://CRAN.R-project.org/package=caret}
+
+{[}8{]} Barret Schloerke, Di Cook, Joseph Larmarange, Francois Briatte,
+Moritz Marbach, Edwin Thoen, Amos Elberg and Jason Crowley (2021).
+GGally: Extension to `ggplot2'. R package version 2.1.1.
+\url{https://CRAN.R-project.org/package=GGally}
+
+{[}9{]} Mitchell O'Hara-Wild, Rob Hyndman and Earo Wang (2021). feasts:
+Feature Extraction and Statistics for Time Series. R package version
+0.1.7. \url{https://CRAN.R-project.org/package=feasts}
+
+{[}10{]} \url{https://rpubs.com/maulikpatel/229337}
 
 \end{frame}
 

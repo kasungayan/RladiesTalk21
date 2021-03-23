@@ -60,7 +60,7 @@ knitr::knit_hooks$set(chunk = function(x, options) {
   - Retail sales/demand forecasting
   - Renewable energy production forecasting (solar)
   
-- Competition Fanatic !
+- Competition Fanatic
   - M5 Forecasting Competition (**Gold Medalist**)
   - IEEE CIS Energy Forecasting Competition (**4th Place**)
   - Air-Liquide Energy Forecasting Competition (**4th Place**)
@@ -221,7 +221,7 @@ model_imputed <- impute(df_NA, Sepal.Length ~ model)
 
 ## Using Correlation
 
-```{r out.width="70%", out.height="60%", size="tiny", fig.align="center", warning=F}
+```{r out.width="70%", out.height="60%", size="tiny", fig.align="center", warning=F, message=F}
 library(GGally)
 library(dplyr)
 set.seed(1234)
@@ -232,7 +232,7 @@ iris %>% select(-Species) %>% ggpairs()
 
 ## Using PCR
 
-```{r out.width="70%", out.height="60%", size="tiny", fig.align="center", warning=F}
+```{r out.width="70%", out.height="60%", size="tiny", fig.align="center", warning=F, message=F}
 library(dplyr)
 set.seed(1234)
 
@@ -258,7 +258,7 @@ plot(boruta_df, xlab="Features", main="Variable Importance")
 
 ## Example of \texttt{\{caret\}}
 
-```{r out.width="70%", out.height="60%", size="tiny",fig.align="center"}
+```{r out.width="70%", out.height="60%", size="tiny",fig.align="center",  warning=F, message=F}
 library(caret)
 set.seed(1234)
 
@@ -824,4 +824,28 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 
 ## References
 
-[1] 
+\tiny 
+[1] Hadley Wickham (2021). rvest: Easily Harvest (Scrape) Web Pages. R package version 1.0.0.
+  https://CRAN.R-project.org/package=rvest
+  
+[2] Mark van der Loo (2021). simputation: Simple Imputation. R package version 0.2.6. https://CRAN.R-project.org/package=simputation
+  
+[3]  https://cran.r-project.org/web/packages/simputation/vignettes/intro.html
+
+[4] https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/
+
+[5] https://www.kaggle.com/zurfer/how-to-use-principle-component-analysis-in-r
+
+[6] Miron B. Kursa, Witold R. Rudnicki (2010). Feature Selection with the Boruta Package. Journal of Statistical Software,
+  36(11), 1-13. URL http://www.jstatsoft.org/v36/i11/
+  
+[7] Max Kuhn (2020). caret: Classification and Regression Training. R package version 6.0-86.
+  https://CRAN.R-project.org/package=caret
+  
+[8] Barret Schloerke, Di Cook, Joseph Larmarange, Francois Briatte, Moritz Marbach, Edwin Thoen, Amos Elberg and Jason
+  Crowley (2021). GGally: Extension to 'ggplot2'. R package version 2.1.1. https://CRAN.R-project.org/package=GGally
+  
+[9] Mitchell O'Hara-Wild, Rob Hyndman and Earo Wang (2021). feasts: Feature Extraction and Statistics for Time Series. R
+  package version 0.1.7. https://CRAN.R-project.org/package=feasts
+
+[10] https://rpubs.com/maulikpatel/229337
