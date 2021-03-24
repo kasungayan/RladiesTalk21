@@ -444,17 +444,36 @@ fancyRpartPlot(model_dt$finalModel)
 
 ## Regression using \texttt{\{caret\}}
 ```{r out.width="80%", out.height="70%", size="tiny",fig.align="center", warning=F, message=F}
-data(diamonds)
+library(caret)
+library(dplyr)
+library(rsample)
+
 set.seed(1234)
 
-# Data splitting.
-data_split <- initial_split(diamonds, prop = .7)
-train <- training(data_split)
-test  <- testing(data_split)
+# Reading the data.
+df_households <- read.csv("data/realestate.csv")
+df_households_filtered <- df_households[, c(-1,-2)]
 
+# Splitting the data.
+colnames(df_households_filtered)[6] <- "price"
+data_split <- initial_split(df_households_filtered, prop = .7) 
+
+train <- training(data_split)
+test <- testing(data_split)
+
+# Defining the feature variables.
+x <- model.matrix(price~., train)
+# Defining the class variable.
+y <- train$price
+``` 
+
+## Regression using \texttt{\{caret\}} (2)
+```{r out.width="80%", out.height="70%", size="tiny",fig.align="center", warning=F, message=F}
 # Linear regression model training.
 model <- train(price ~ ., train, method = "lm",trControl = trainControl(method = "cv",
                                         number = 10))
+
+# Model summary.
 print(model)
 ``` 
 
@@ -462,11 +481,22 @@ print(model)
 ```{r, size="tiny",fig.align="center", warning=F, message=F}
 library(glmnet)
 library(dplyr)
+library(rsample)
 
-data(diamonds)
 set.seed(1234)
+
+# Reading the data.
+df_households <- read.csv("data/realestate.csv")
+df_households_filtered <- df_households[, c(-1,-2)]
+
+# Splitting the data.
+colnames(df_households_filtered)[6] <- "price"
+data_split <- initial_split(df_households_filtered, prop = .7) 
+train <- training(data_split)
+test <- testing(data_split)
+
 # Defining the feature variables.
-x <- model.matrix(price~., train)[,-1]
+x <- model.matrix(price~., train)
 # Defining the class variable.
 y <- train$price
 
@@ -474,40 +504,13 @@ y <- train$price
 cv <- cv.glmnet(x, y, alpha = 1)
 # Fit the final model (lasso regression) on the training data
 best_model <- glmnet(x, y, alpha = 1, lambda = cv$lambda.min)
-
-# Evaluating the model on the test data.
-x.test <- model.matrix(price~ ., test)[,-1]
-price_predictions <- best_model %>% predict(x.test) %>% as.numeric()
-price_predictions[price_predictions < 0] <- 0
-
-# Model performance summary.
-data.frame(
-  RMSE = RMSE(price_predictions, test$price),
-  Rsquare = R2(price_predictions, test$price)
-)
 ``` 
 
-## Regression using \texttt{\{glmnet\}}
+## Regression using \texttt{\{glmnet\}} (2)
 ```{r, size="tiny",fig.align="center", warning=F, message=F}
-library(glmnet)
-library(dplyr)
-
-data(diamonds)
-set.seed(1234)
-# Defining the feature variables.
-x <- model.matrix(price~., train)[,-1]
-# Defining the class variable.
-y <- train$price
-
-# Use cross validation to determine the optimal lambda.
-cv <- cv.glmnet(x, y, alpha = 1)
-# Fit the final model (lasso regression) on the training data
-best_model <- glmnet(x, y, alpha = 1, lambda = cv$lambda.min)
-
 # Evaluating the model on the test data.
-x.test <- model.matrix(price~ ., test)[,-1]
+x.test <- model.matrix(price~ ., test)
 price_predictions <- best_model %>% predict(x.test) %>% as.numeric()
-price_predictions[price_predictions < 0] <- 0
 
 # Model performance summary.
 data.frame(
@@ -515,6 +518,7 @@ data.frame(
   Rsquare = R2(price_predictions, test$price)
 )
 ``` 
+
 
 ## Unsupervised Learning
 - Learning patterns from unlabbled data.
@@ -849,3 +853,19 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
   package version 0.1.7. https://CRAN.R-project.org/package=feasts
 
 [10] https://rpubs.com/maulikpatel/229337
+
+## References 
+
+\tiny 
+[11] Julia Silge, Fanny Chow, Max Kuhn and Hadley Wickham (2021). rsample: General Resampling Infrastructure. R package
+  version 0.0.9. https://CRAN.R-project.org/package=rsample
+  
+[12] https://uc-r.github.io/naive_bayes
+
+[13] Jarek Tuszynski (2021). caTools: Tools: Moving Window Statistics, GIF, Base64, ROC AUC, etc. R package version 1.18.1.
+  https://CRAN.R-project.org/package=caTools
+
+[14] Terry Therneau and Beth Atkinson (2019). rpart: Recursive Partitioning and Regression Trees. R package version 4.1-15.
+  https://CRAN.R-project.org/package=rpart
+  
+  

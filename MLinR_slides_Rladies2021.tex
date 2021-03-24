@@ -947,13 +947,27 @@ Known as the O.S.E.M.N. framework.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{data}\NormalTok{(diamonds)}
+\KeywordTok{library}\NormalTok{(caret)}
+\KeywordTok{library}\NormalTok{(dplyr)}
+\KeywordTok{library}\NormalTok{(rsample)}
+
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
 
-\CommentTok{# Data splitting.}
-\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(diamonds, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{)}
+\CommentTok{# Reading the data.}
+\NormalTok{df_households <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"data/realestate.csv"}\NormalTok{)}
+\NormalTok{df_households_filtered <-}\StringTok{ }\NormalTok{df_households[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{1}\NormalTok{,}\OperatorTok{-}\DecValTok{2}\NormalTok{)]}
+
+\CommentTok{# Splitting the data.}
+\KeywordTok{colnames}\NormalTok{(df_households_filtered)[}\DecValTok{6}\NormalTok{] <-}\StringTok{ "price"}
+\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_households_filtered, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{) }
+
 \NormalTok{train <-}\StringTok{ }\KeywordTok{training}\NormalTok{(data_split)}
-\NormalTok{test  <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
+\NormalTok{test <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
+
+\CommentTok{# Defining the feature variables.}
+\NormalTok{x <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\NormalTok{., train)}
+\CommentTok{# Defining the class variable.}
+\NormalTok{y <-}\StringTok{ }\NormalTok{train}\OperatorTok{$}\NormalTok{price}
 
 \CommentTok{# Linear regression model training.}
 \NormalTok{model <-}\StringTok{ }\KeywordTok{train}\NormalTok{(price }\OperatorTok{~}\StringTok{ }\NormalTok{., train, }\DataTypeTok{method =} \StringTok{"lm"}\NormalTok{,}\DataTypeTok{trControl =} \KeywordTok{trainControl}\NormalTok{(}\DataTypeTok{method =} \StringTok{"cv"}\NormalTok{,}
@@ -965,16 +979,53 @@ Known as the O.S.E.M.N. framework.
 \begin{verbatim}
 ## Linear Regression 
 ## 
-## 37758 samples
-##     9 predictor
+## 290 samples
+##   5 predictor
 ## 
 ## No pre-processing
 ## Resampling: Cross-Validated (10 fold) 
-## Summary of sample sizes: 33982, 33982, 33983, 33982, 33982, 33981, ... 
+## Summary of sample sizes: 260, 260, 261, 261, 262, 261, ... 
 ## Resampling results:
 ## 
 ##   RMSE      Rsquared   MAE     
-##   1126.445  0.9204881  742.5132
+##   8.862187  0.6199554  6.254035
+## 
+## Tuning parameter 'intercept' was held constant at a value of TRUE
+\end{verbatim}
+
+\normalsize
+
+\end{frame}
+
+\begin{frame}[fragile]{Regression using \texttt{\{caret\}} (2)}
+\protect\hypertarget{regression-using-2}{}
+
+\tiny
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Linear regression model training.}
+\NormalTok{model <-}\StringTok{ }\KeywordTok{train}\NormalTok{(price }\OperatorTok{~}\StringTok{ }\NormalTok{., train, }\DataTypeTok{method =} \StringTok{"lm"}\NormalTok{,}\DataTypeTok{trControl =} \KeywordTok{trainControl}\NormalTok{(}\DataTypeTok{method =} \StringTok{"cv"}\NormalTok{,}
+                                        \DataTypeTok{number =} \DecValTok{10}\NormalTok{))}
+
+\CommentTok{# Model summary.}
+\KeywordTok{print}\NormalTok{(model)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear Regression 
+## 
+## 290 samples
+##   5 predictor
+## 
+## No pre-processing
+## Resampling: Cross-Validated (10 fold) 
+## Summary of sample sizes: 261, 261, 261, 260, 261, 261, ... 
+## Resampling results:
+## 
+##   RMSE      Rsquared   MAE    
+##   8.784168  0.6074892  6.18871
 ## 
 ## Tuning parameter 'intercept' was held constant at a value of TRUE
 \end{verbatim}
@@ -992,11 +1043,22 @@ Known as the O.S.E.M.N. framework.
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(glmnet)}
 \KeywordTok{library}\NormalTok{(dplyr)}
+\KeywordTok{library}\NormalTok{(rsample)}
 
-\KeywordTok{data}\NormalTok{(diamonds)}
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
+
+\CommentTok{# Reading the data.}
+\NormalTok{df_households <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"data/realestate.csv"}\NormalTok{)}
+\NormalTok{df_households_filtered <-}\StringTok{ }\NormalTok{df_households[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{1}\NormalTok{,}\OperatorTok{-}\DecValTok{2}\NormalTok{)]}
+
+\CommentTok{# Splitting the data.}
+\KeywordTok{colnames}\NormalTok{(df_households_filtered)[}\DecValTok{6}\NormalTok{] <-}\StringTok{ "price"}
+\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_households_filtered, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{) }
+\NormalTok{train <-}\StringTok{ }\KeywordTok{training}\NormalTok{(data_split)}
+\NormalTok{test <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
+
 \CommentTok{# Defining the feature variables.}
-\NormalTok{x <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\NormalTok{., train)[,}\OperatorTok{-}\DecValTok{1}\NormalTok{]}
+\NormalTok{x <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\NormalTok{., train)}
 \CommentTok{# Defining the class variable.}
 \NormalTok{y <-}\StringTok{ }\NormalTok{train}\OperatorTok{$}\NormalTok{price}
 
@@ -1004,55 +1066,23 @@ Known as the O.S.E.M.N. framework.
 \NormalTok{cv <-}\StringTok{ }\KeywordTok{cv.glmnet}\NormalTok{(x, y, }\DataTypeTok{alpha =} \DecValTok{1}\NormalTok{)}
 \CommentTok{# Fit the final model (lasso regression) on the training data}
 \NormalTok{best_model <-}\StringTok{ }\KeywordTok{glmnet}\NormalTok{(x, y, }\DataTypeTok{alpha =} \DecValTok{1}\NormalTok{, }\DataTypeTok{lambda =}\NormalTok{ cv}\OperatorTok{$}\NormalTok{lambda.min)}
-
-\CommentTok{# Evaluating the model on the test data.}
-\NormalTok{x.test <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\StringTok{ }\NormalTok{., test)[,}\OperatorTok{-}\DecValTok{1}\NormalTok{]}
-\NormalTok{price_predictions <-}\StringTok{ }\NormalTok{best_model }\OperatorTok{%>%}\StringTok{ }\KeywordTok{predict}\NormalTok{(x.test) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{()}
-\NormalTok{price_predictions[price_predictions }\OperatorTok{<}\StringTok{ }\DecValTok{0}\NormalTok{] <-}\StringTok{ }\DecValTok{0}
-
-\CommentTok{# Model performance summary.}
-\KeywordTok{data.frame}\NormalTok{(}
-  \DataTypeTok{RMSE =} \KeywordTok{RMSE}\NormalTok{(price_predictions, test}\OperatorTok{$}\NormalTok{price),}
-  \DataTypeTok{Rsquare =} \KeywordTok{R2}\NormalTok{(price_predictions, test}\OperatorTok{$}\NormalTok{price)}
-\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
-
-\begin{verbatim}
-##       RMSE   Rsquare
-## 1 1088.945 0.9254219
-\end{verbatim}
 
 \normalsize
 
 \end{frame}
 
-\begin{frame}[fragile]{Regression using \texttt{\{glmnet\}}}
-\protect\hypertarget{regression-using-2}{}
+\begin{frame}[fragile]{Regression using \texttt{\{glmnet\}} (2)}
+\protect\hypertarget{regression-using-2-1}{}
 
 \tiny
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{library}\NormalTok{(glmnet)}
-\KeywordTok{library}\NormalTok{(dplyr)}
-
-\KeywordTok{data}\NormalTok{(diamonds)}
-\KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
-\CommentTok{# Defining the feature variables.}
-\NormalTok{x <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\NormalTok{., train)[,}\OperatorTok{-}\DecValTok{1}\NormalTok{]}
-\CommentTok{# Defining the class variable.}
-\NormalTok{y <-}\StringTok{ }\NormalTok{train}\OperatorTok{$}\NormalTok{price}
-
-\CommentTok{# Use cross validation to determine the optimal lambda.}
-\NormalTok{cv <-}\StringTok{ }\KeywordTok{cv.glmnet}\NormalTok{(x, y, }\DataTypeTok{alpha =} \DecValTok{1}\NormalTok{)}
-\CommentTok{# Fit the final model (lasso regression) on the training data}
-\NormalTok{best_model <-}\StringTok{ }\KeywordTok{glmnet}\NormalTok{(x, y, }\DataTypeTok{alpha =} \DecValTok{1}\NormalTok{, }\DataTypeTok{lambda =}\NormalTok{ cv}\OperatorTok{$}\NormalTok{lambda.min)}
-
 \CommentTok{# Evaluating the model on the test data.}
-\NormalTok{x.test <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\StringTok{ }\NormalTok{., test)[,}\OperatorTok{-}\DecValTok{1}\NormalTok{]}
+\NormalTok{x.test <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\StringTok{ }\NormalTok{., test)}
 \NormalTok{price_predictions <-}\StringTok{ }\NormalTok{best_model }\OperatorTok{%>%}\StringTok{ }\KeywordTok{predict}\NormalTok{(x.test) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{as.numeric}\NormalTok{()}
-\NormalTok{price_predictions[price_predictions }\OperatorTok{<}\StringTok{ }\DecValTok{0}\NormalTok{] <-}\StringTok{ }\DecValTok{0}
 
 \CommentTok{# Model performance summary.}
 \KeywordTok{data.frame}\NormalTok{(}
@@ -1063,8 +1093,8 @@ Known as the O.S.E.M.N. framework.
 \end{Shaded}
 
 \begin{verbatim}
-##       RMSE   Rsquare
-## 1 1088.945 0.9254219
+##       RMSE  Rsquare
+## 1 8.916861 0.540294
 \end{verbatim}
 
 \normalsize
@@ -1115,7 +1145,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.6\linewidth,height=0.5\textheight]{figs/unnamed-chunk-15} \end{center}
+\begin{center}\includegraphics[width=0.6\linewidth,height=0.5\textheight]{figs/unnamed-chunk-16} \end{center}
 
 \normalsize
 
@@ -1139,7 +1169,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.7\linewidth,height=0.6\textheight]{figs/unnamed-chunk-16} \end{center}
+\begin{center}\includegraphics[width=0.7\linewidth,height=0.6\textheight]{figs/unnamed-chunk-17} \end{center}
 
 \normalsize
 
@@ -1164,7 +1194,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.7\linewidth,height=0.6\textheight]{figs/unnamed-chunk-17} \end{center}
+\begin{center}\includegraphics[width=0.7\linewidth,height=0.6\textheight]{figs/unnamed-chunk-18} \end{center}
 
 \normalsize
 
@@ -1337,7 +1367,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.6\linewidth,height=0.5\textheight]{figs/unnamed-chunk-21} \end{center}
+\begin{center}\includegraphics[width=0.6\linewidth,height=0.5\textheight]{figs/unnamed-chunk-22} \end{center}
 
 \normalsize
 
@@ -1575,7 +1605,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-26} \end{center}
+\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-27} \end{center}
 
 \normalsize
 
@@ -1619,6 +1649,27 @@ Feature Extraction and Statistics for Time Series. R package version
 0.1.7. \url{https://CRAN.R-project.org/package=feasts}
 
 {[}10{]} \url{https://rpubs.com/maulikpatel/229337}
+
+\end{frame}
+
+\begin{frame}{References}
+\protect\hypertarget{references-1}{}
+
+\tiny
+
+{[}11{]} Julia Silge, Fanny Chow, Max Kuhn and Hadley Wickham (2021).
+rsample: General Resampling Infrastructure. R package version 0.0.9.
+\url{https://CRAN.R-project.org/package=rsample}
+
+{[}12{]} \url{https://uc-r.github.io/naive_bayes}
+
+{[}13{]} Jarek Tuszynski (2021). caTools: Tools: Moving Window
+Statistics, GIF, Base64, ROC AUC, etc. R package version 1.18.1.
+\url{https://CRAN.R-project.org/package=caTools}
+
+{[}14{]} Terry Therneau and Beth Atkinson (2019). rpart: Recursive
+Partitioning and Regression Trees. R package version 4.1-15.
+\url{https://CRAN.R-project.org/package=rpart}
 
 \end{frame}
 
