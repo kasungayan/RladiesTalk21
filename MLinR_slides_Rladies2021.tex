@@ -968,30 +968,8 @@ Known as the O.S.E.M.N. framework.
 \NormalTok{x <-}\StringTok{ }\KeywordTok{model.matrix}\NormalTok{(price}\OperatorTok{~}\NormalTok{., train)}
 \CommentTok{# Defining the class variable.}
 \NormalTok{y <-}\StringTok{ }\NormalTok{train}\OperatorTok{$}\NormalTok{price}
-
-\CommentTok{# Linear regression model training.}
-\NormalTok{model <-}\StringTok{ }\KeywordTok{train}\NormalTok{(price }\OperatorTok{~}\StringTok{ }\NormalTok{., train, }\DataTypeTok{method =} \StringTok{"lm"}\NormalTok{,}\DataTypeTok{trControl =} \KeywordTok{trainControl}\NormalTok{(}\DataTypeTok{method =} \StringTok{"cv"}\NormalTok{,}
-                                        \DataTypeTok{number =} \DecValTok{10}\NormalTok{))}
-\KeywordTok{print}\NormalTok{(model)}
 \end{Highlighting}
 \end{Shaded}
-
-\begin{verbatim}
-## Linear Regression 
-## 
-## 290 samples
-##   5 predictor
-## 
-## No pre-processing
-## Resampling: Cross-Validated (10 fold) 
-## Summary of sample sizes: 260, 260, 261, 261, 262, 261, ... 
-## Resampling results:
-## 
-##   RMSE      Rsquared   MAE     
-##   8.862187  0.6199554  6.254035
-## 
-## Tuning parameter 'intercept' was held constant at a value of TRUE
-\end{verbatim}
 
 \normalsize
 
@@ -1021,11 +999,11 @@ Known as the O.S.E.M.N. framework.
 ## 
 ## No pre-processing
 ## Resampling: Cross-Validated (10 fold) 
-## Summary of sample sizes: 261, 261, 261, 260, 261, 261, ... 
+## Summary of sample sizes: 260, 260, 261, 261, 262, 261, ... 
 ## Resampling results:
 ## 
-##   RMSE      Rsquared   MAE    
-##   8.784168  0.6074892  6.18871
+##   RMSE      Rsquared   MAE     
+##   8.862187  0.6199554  6.254035
 ## 
 ## Tuning parameter 'intercept' was held constant at a value of TRUE
 \end{verbatim}
@@ -1236,18 +1214,18 @@ Known as the O.S.E.M.N. framework.
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(caret)}
+\KeywordTok{library}\NormalTok{(rsample)}
+\KeywordTok{library}\NormalTok{(nnet)}
 
-\KeywordTok{data}\NormalTok{(diamonds)}
-\KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
+\CommentTok{# Reading the data.}
+\NormalTok{df_households <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"data/realestate.csv"}\NormalTok{)}
+\NormalTok{df_households_filtered <-}\StringTok{ }\NormalTok{df_households[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{1}\NormalTok{,}\OperatorTok{-}\DecValTok{2}\NormalTok{)]}
 
-\CommentTok{# Preprocessing.}
-\CommentTok{# Use model.matrix for categorical variables (one-hot encoding)}
-\NormalTok{df_diamonds <-}\StringTok{ }\NormalTok{diamonds[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{2}\NormalTok{, }\DecValTok{-3}\NormalTok{, }\DecValTok{-4}\NormalTok{)]}
-
-\CommentTok{# Data splitting.}
-\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_diamonds, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{)}
+\CommentTok{# Splitting the data.}
+\KeywordTok{colnames}\NormalTok{(df_households_filtered)[}\DecValTok{6}\NormalTok{] <-}\StringTok{ "price"}
+\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_households_filtered, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{) }
 \NormalTok{train <-}\StringTok{ }\KeywordTok{training}\NormalTok{(data_split)}
-\NormalTok{test  <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
+\NormalTok{test <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
 
 \CommentTok{# You can directly use the nnet function from the nnet packaage}
 \CommentTok{# mlp_fit <- nnet(price ~ ., train, size = 2, rang = 0.1, decay = 5e-4, maxit = 200)}
@@ -1670,6 +1648,18 @@ Statistics, GIF, Base64, ROC AUC, etc. R package version 1.18.1.
 {[}14{]} Terry Therneau and Beth Atkinson (2019). rpart: Recursive
 Partitioning and Regression Trees. R package version 4.1-15.
 \url{https://CRAN.R-project.org/package=rpart}
+
+{[}15{]} Jerome Friedman, Trevor Hastie, Robert Tibshirani (2010).
+Regularization Paths for Generalized Linear Models via Coordinate
+Descent. Journal of Statistical Software, 33(1), 1-22. URL
+\url{https://www.jstatsoft.org/v33/i01/}
+
+{[}16{]} Alboukadel Kassambara and Fabian Mundt (2020). factoextra:
+Extract and Visualize the Results of Multivariate Data Analyses. R
+package version 1.0.7.
+\url{https://CRAN.R-project.org/package=factoextra}
+
+{[}17{]} \url{https://uc-r.github.io/kmeans_clustering}
 
 \end{frame}
 

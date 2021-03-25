@@ -591,18 +591,18 @@ fviz_cluster(db_output, df, stand = FALSE, frame = FALSE, geom = "point")
 ## Feedforward Neural Networks using \texttt{\{nnet\}}
 ```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
 library(caret)
+library(rsample)
+library(nnet)
 
-data(diamonds)
-set.seed(1234)
+# Reading the data.
+df_households <- read.csv("data/realestate.csv")
+df_households_filtered <- df_households[, c(-1,-2)]
 
-# Preprocessing.
-# Use model.matrix for categorical variables (one-hot encoding)
-df_diamonds <- diamonds[, c(-2, -3, -4)]
-
-# Data splitting.
-data_split <- initial_split(df_diamonds, prop = .7)
+# Splitting the data.
+colnames(df_households_filtered)[6] <- "price"
+data_split <- initial_split(df_households_filtered, prop = .7) 
 train <- training(data_split)
-test  <- testing(data_split)
+test <- testing(data_split)
 
 # You can directly use the nnet function from the nnet packaage
 # mlp_fit <- nnet(price ~ ., train, size = 2, rang = 0.1, decay = 5e-4, maxit = 200)
@@ -867,5 +867,13 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 
 [14] Terry Therneau and Beth Atkinson (2019). rpart: Recursive Partitioning and Regression Trees. R package version 4.1-15.
   https://CRAN.R-project.org/package=rpart
+  
+[15] Jerome Friedman, Trevor Hastie, Robert Tibshirani (2010). Regularization Paths for Generalized Linear Models via
+  Coordinate Descent. Journal of Statistical Software, 33(1), 1-22. URL https://www.jstatsoft.org/v33/i01/
+  
+[16] Alboukadel Kassambara and Fabian Mundt (2020). factoextra: Extract and Visualize the Results of Multivariate Data
+  Analyses. R package version 1.0.7. https://CRAN.R-project.org/package=factoextra
+  
+[17] https://uc-r.github.io/kmeans_clustering
   
   
