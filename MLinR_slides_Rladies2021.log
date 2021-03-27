@@ -1,0 +1,1974 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.3)  27 MAR 2021 12:32
+entering extended mode
+**./MLinR_slides_Rladies2021.tex
+(MLinR_slides_Rladies2021.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamer.cls"
+Document Class: beamer 2021/02/09 v3.61 A class for typesetting presentations
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasemodes.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoo
+lbox/etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count179
+)
+\beamer@tempbox=\box47
+\beamer@tempcount=\count180
+\c@beamerpauses=\count181
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasedecode.sty"
+\beamer@slideinframe=\count182
+\beamer@minimum=\count183
+\beamer@decode@box=\box48
+)
+\beamer@commentbox=\box49
+\beamer@modecount=\count184
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen138
+\footheight=\dimen139
+\sidebarheight=\dimen140
+\beamer@tempdim=\dimen141
+\beamer@finalheight=\dimen142
+\beamer@animht=\dimen143
+\beamer@animdp=\dimen144
+\beamer@animwd=\dimen145
+\beamer@leftmargin=\dimen146
+\beamer@rightmargin=\dimen147
+\beamer@leftsidebar=\dimen148
+\beamer@rightsidebar=\dimen149
+\beamer@boxsize=\dimen150
+\beamer@vboxoffset=\dimen151
+\beamer@descdefault=\dimen152
+\beamer@descriptionwidth=\dimen153
+\beamer@lastskip=\skip47
+\beamer@areabox=\box50
+\beamer@animcurrent=\box51
+\beamer@animshowbox=\box52
+\beamer@sectionbox=\box53
+\beamer@logobox=\box54
+\beamer@linebox=\box55
+\beamer@sectioncount=\count185
+\beamer@subsubsectionmax=\count186
+\beamer@subsectionmax=\count187
+\beamer@sectionmax=\count188
+\beamer@totalheads=\count189
+\beamer@headcounter=\count190
+\beamer@partstartpage=\count191
+\beamer@sectionstartpage=\count192
+\beamer@subsectionstartpage=\count193
+\beamer@animationtempa=\count194
+\beamer@animationtempb=\count195
+\beamer@xpos=\count196
+\beamer@ypos=\count197
+\beamer@ypos@offset=\count198
+\beamer@showpartnumber=\count199
+\beamer@currentsubsection=\count266
+\beamer@coveringdepth=\count267
+\beamer@sectionadjust=\count268
+\beamer@tocsectionnumber=\count269
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseoptions.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
+etry/geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks16
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
+etry/geometry.cfg"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/size12.clo"
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgfcore.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics/trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-def/pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+systemlayer/pgfsys.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfrcs.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common.tex"
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-common-lists.tex"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box56
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfrcs.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/pgf.revision.tex")
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys.code.tex"
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count273
+\c@pgf@countb=\count274
+\c@pgf@countc=\count275
+\c@pgf@countd=\count276
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count277
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgf.cfg"
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count278
+\pgfsyssoftpath@bigbuffer@items=\count279
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/systemlayer/pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcol
+or/xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grap
+hics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcore.code.tex"
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathcalc.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathutil.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count280
+\pgfmath@box=\box57
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.code.tex"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.basic.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.random.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.comparison.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.base.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.round.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.misc.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count281
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfint.code.tex")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count282
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen195
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen199
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count283
+\pgf@shadingcount=\count284
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box61
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/basiclayer/pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/xxcolor.sty"
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count285
+\XC@countmixins=\count286
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/atbegshi-ltx.sty"
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/hyperref.sty"
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/lt
+xcmds/ltxcmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pd
+ftexcmds/pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/in
+fwarerr/infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kv
+setkeys/kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/kv
+definekeys/kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pd
+fescape/pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyco
+lor/hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/letl
+txmacro/letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/auxh
+ook/auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/kvop
+tions/kvoptions.sty"
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen257
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/pd1enc.def"
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/hyperref-langpatches.def"
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+nguages
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/in
+tcalc/intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/et
+excmds/etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count289
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/puenc.def"
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
+Package hyperref Info: Option `implicit' set `false' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count290
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/
+url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen258
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bi
+tset/bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bi
+gintcalc/bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count291
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+\Hy@abspage=\count292
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/hpdftex.def"
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/atveryend-ltx.sty"
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/reru
+nfilecheck/rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/un
+iquecounter/uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaserequires.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasecompatibility.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasefont.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sans
+mathaccent/sansmathaccent.sty"
+Package: sansmathaccent 2020/01/31
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma
+-script/scrlfile.sty"
+Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma
+-script/scrlfile-hook.sty"
+Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
+
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/koma
+-script/scrlogo.sty"
+Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
+)))))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetranslator.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator.sty"
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasemisc.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetwoscreens.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseoverlay.sty"
+\beamer@argscount=\count295
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count296
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetitle.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasesection.sty"
+\c@lecture=\count297
+\c@part=\count298
+\c@section=\count299
+\c@subsection=\count300
+\c@subsubsection=\count301
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseframe.sty"
+\beamer@framebox=\box62
+\beamer@frametitlebox=\box63
+\beamer@zoombox=\box64
+\beamer@zoomcount=\count302
+\beamer@zoomframecount=\count303
+\beamer@frametextheight=\dimen261
+\c@subsectionslide=\count304
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks28
+\framewidth=\dimen262
+\c@framenumber=\count305
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseverbatim.sty"
+\beamer@verbatimfileout=\write4
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseframesize.sty"
+\beamer@splitbox=\box65
+\beamer@autobreakcount=\count306
+\beamer@autobreaklastheight=\dimen263
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseframecomponents.sty"
+\beamer@footins=\box66
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasecolor.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasenotes.sty"
+\beamer@frameboxcopy=\box67
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetoc.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetemplates.sty"
+\beamer@sbttoks=\toks31
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseauxtemplates.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaseboxes.sty"
+\bmb@box=\box68
+\bmb@colorbox=\box69
+\bmb@boxwidth=\dimen264
+\bmb@boxheight=\dimen265
+\bmb@prevheight=\dimen266
+\bmb@temp=\dimen267
+\bmb@dima=\dimen268
+\bmb@dimb=\dimen269
+\bmb@prevheight=\dimen270
+)
+\beamer@blockheadheight=\dimen271
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbaselocalstructure.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/late
+x-tools/enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
+\beamer@bibiconwidth=\skip55
+\c@figure=\count307
+\c@table=\count308
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasenavigation.sty"
+\beamer@section@min@dim=\dimen272
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasetheorems.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen273
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen274
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsm
+ath/amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count309
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count310
+\leftroot@=\count311
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count312
+\DOTSCASE@=\count313
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box70
+\strutbox@=\box71
+\big@size=\dimen275
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count314
+\c@MaxMatrixCols=\count315
+\dotsspace@=\muskip17
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
+\tag@help=\toks34
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
+\andhelp@=\toks35
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
+\@envbody=\toks36
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsc
+ls/amsthm.sty"
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks43
+)
+\c@theorem=\count321
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerbasethemes.sty"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerthemedefault.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerfontthemedefault.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamercolorthemedefault.sty")
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerinnerthemedefault.sty"
+\beamer@dima=\dimen282
+\beamer@dimb=\dimen283
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+er/beamerouterthemedefault.sty")))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfpages.sty"
+Package: pgfpages 2011/01/05 ver 0.02
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/late
+x-tools/calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count322
+\calc@Bcount=\count323
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count324
+\calc@Cskip=\skip66
+)
+\pgf@logicalpages=\count325
+\pgf@firstshipout=\count326
+\pgf@lastshipout=\count327
+\pgf@currentshipout=\count328
+\pgf@cpn=\count329
+\pgf@shipoutnextto=\count330
+\pgfphysicalheight=\dimen286
+\pgfphysicalwidth=\dimen287
+\pgfpages@shipoutbox=\box72
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/l
+modern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifxetex.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/if
+tex/ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/fixltx2e.sty"
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+12.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerthememetropolis.sty"
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgfo
+pts/pgfopts.sty"
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgfkeys.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgfkeys.code.tex"))
+\pgfopts@list@add@a@toks=\toks46
+\pgfopts@list@add@b@toks=\toks47
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerinnerthememetropolis.sty"
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+frontendlayer/tikz.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+basiclayer/pgf.sty"
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box73
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen288
+\pgf@nodesepend=\dimen289
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+compatibility/pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+utilities/pgffor.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/
+math/pgfmath.sty"
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex"))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/utilities/pgffor.code.tex"
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/math/pgfmath.code.tex")
+\pgffor@iter=\dimen290
+\pgffor@skip=\dimen291
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/frontendlayer/tikz/tikz.code.tex"
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/libraries/pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count331
+\pgfplotmarksize=\dimen292
+)
+\tikz@lastx=\dimen293
+\tikz@lasty=\dimen294
+\tikz@lastxsaved=\dimen295
+\tikz@lastysaved=\dimen296
+\tikz@lastmovetox=\dimen297
+\tikz@lastmovetoy=\dimen298
+\tikzleveldistance=\dimen299
+\tikzsiblingdistance=\dimen300
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count332
+\tikznumberofchildren=\count333
+\tikznumberofcurrentchild=\count334
+\tikz@fig@count=\count335
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/modules/pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count336
+\pgfmatrixcurrentcolumn=\count337
+\pgf@matrix@numberofcolumns=\count338
+)
+\tikz@expandcount=\count339
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pg
+f/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+\metropolis@titleseparator@linewidth=\skip67
+\metropolis@progressonsectionpage=\skip68
+\metropolis@progressonsectionpage@linewidth=\skip69
+\metropolis@blocksep=\skip70
+\metropolis@blockadjust=\skip71
+\metropolis@parskip=\skip72
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerouterthememetropolis.sty"
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip73
+\metropolis@progressinheadfoot=\skip74
+\metropolis@progressinheadfoot@linewidth=\skip75
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamercolorthememetropolis.sty"
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
+ertheme-metropolis/beamerfontthememetropolis.sty"
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+
+
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
+aTeX to use the Fira fonts on input line 95.
+
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/upqu
+ote/upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base
+/textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/microtype.sty"
+Package: microtype 2021/02/25 v2.8b Micro-typographical refinements (RS)
+\MT@toks=\toks50
+\MT@count=\count340
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen301
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count341
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/microtype-pdftex.def"
+File: microtype-pdftex.def 2021/02/25 v2.8b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip76
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/microtype.cfg"
+File: microtype.cfg 2021/02/25 v2.8b microtype main configuration file (RS)
+))
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/natb
+ib/natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip77
+\bibsep=\skip78
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count342
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 58.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fanc
+yvrb/fancyvrb.sty"
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count343
+\FV@InFile=\read3
+\FV@TabBox=\box78
+\c@FancyVerbLine=\count344
+\FV@StepNumber=\count345
+\FV@OutFile=\write5
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fram
+ed/framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip79
+\fb@frw=\dimen302
+\fb@frh=\dimen303
+\FrameRule=\dimen304
+\FrameSep=\dimen305
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subf
+ig/subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capt
+ion/caption.sty"
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capt
+ion/caption3.sty"
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen306
+\captionmargin@=\dimen307
+\captionwidth=\dimen308
+\caption@tempdima=\dimen309
+\caption@indent=\dimen310
+\caption@parindent=\dimen311
+\caption@hangindent=\dimen312
+Package caption Info: beamer document class detected.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/capt
+ion/caption-beamer.sto"
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
+))
+\c@caption@flags=\count346
+\c@continuedfloat=\count347
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+\c@KVtest=\count348
+\sf@farskip=\skip80
+\sf@captopadj=\dimen313
+\sf@capskip=\skip81
+\sf@nearskip=\skip82
+\c@subfigure=\count349
+\c@subfigure@save=\count350
+\c@depth=\count351
+\c@subtable=\count352
+\c@subtable@save=\count353
+\sf@top=\skip83
+\sf@bottom=\skip84
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3ba
+ckend/l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count354
+\l__pdf_internal_box=\box79
+) (MLinR_slides_Rladies2021.aux)
+\openout1 = `MLinR_slides_Rladies2021.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/context/ba
+se/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen314
+\scratchbox=\box80
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen315
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks52
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epst
+opdf-pkg/epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package hyperref Info: Link coloring OFF on input line 163.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hype
+rref/nameref.sty"
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refc
+ount/refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ge
+ttitlestring/gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count361
+)
+LaTeX Info: Redefining \ref on input line 163.
+LaTeX Info: Redefining \pageref on input line 163.
+LaTeX Info: Redefining \nameref on input line 163.
+ (MLinR_slides_Rladies2021.out)
+(MLinR_slides_Rladies2021.out)
+\@outlinefile=\write6
+\openout6 = `MLinR_slides_Rladies2021.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 163.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 163.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 163.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 163.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 163.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 163.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 163.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 163.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-bibliography-dictionary-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-environment-dictionary-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-months-dictionary-English.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-numbers-dictionary-English.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tran
+slator/translator-theorem-dictionary-English.dict"
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \microtypecontext on input line 163.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 163.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(MLinR_slides_Rladies2021.nav)
+Overfull \vbox (16.67491pt too high) detected at line 168
+ []
+
+[1
+
+{/Users/kasun/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdft
+ex.map}]
+<images/kasun.png, id=26, 1443.3925pt x 805.0075pt>
+File: images/kasun.png Graphic file (type png)
+<use images/kasun.png>
+Package pdftex.def Info: images/kasun.png  used on input line 178.
+(pdftex.def)             Requested size: 317.54733pt x 177.1022pt.
+
+Overfull \hbox (10.25746pt too wide) in paragraph at lines 178--178
+ [] 
+ []
+
+[2
+
+ <./images/kasun.png>]
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+181.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+t1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+81.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+mllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+181.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+mslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+181.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
+mxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 181.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 181.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 181.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 181
+.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 181
+.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
+onts/umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/micr
+otype/mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+ [3
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+213.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+s1lmss.fd"
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [4
+
+] [5
+
+]
+<images/datascience.jpeg, id=54, 996.72375pt x 903.375pt>
+File: images/datascience.jpeg Graphic file (type jpg)
+<use images/datascience.jpeg>
+Package pdftex.def Info: images/datascience.jpeg  used on input line 267.
+(pdftex.def)             Requested size: 135.28192pt x 122.61201pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 267.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 267.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 267.
+
+Overfull \vbox (9.55876pt too high) detected at line 267
+ []
+
+[6
+
+ <./images/datascience.jpeg (PNG copy)>]
+<images/osemn.png, id=61, 878.28125pt x 459.7175pt>
+File: images/osemn.png Graphic file (type png)
+<use images/osemn.png>
+Package pdftex.def Info: images/osemn.png  used on input line 283.
+(pdftex.def)             Requested size: 245.82326pt x 128.67091pt.
+ [7
+
+ <./images/osemn.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+07.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [8
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <6> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 8.
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 344.
+ [9
+
+] [10
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+
+(MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (0.8643pt too high) detected at line 412
+ []
+
+[11
+
+] [12
+
+]
+Overfull \vbox (3.49774pt too high) detected at line 474
+ []
+
+[13
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-1.pdf, id=112, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-1.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-1.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-1.pdf  used on input line 17.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (5.05173pt too high) detected at line 496
+ []
+
+[14
+
+ <./figs/unnamed-chunk-1.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-2.pdf, id=124, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-2.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-2.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-2.pdf  used on input line 18.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (13.10168pt too high) detected at line 519
+ []
+
+[15
+
+ <./figs/unnamed-chunk-2.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-3.pdf, id=137, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-3.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-3.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-3.pdf  used on input line 19.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (21.15164pt too high) detected at line 543
+ []
+
+[16
+
+ <./figs/unnamed-chunk-3.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+16.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+s1lmtt.fd"
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<figs/unnamed-chunk-4.pdf, id=150, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-4.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-4.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-4.pdf  used on input line 20.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (29.2016pt too high) detected at line 568
+ []
+
+[17
+
+ <./figs/unnamed-chunk-4.pdf>] [18
+
+]
+<images/data_exploration.png, id=170, 1445.4pt x 801.99625pt>
+File: images/data_exploration.png Graphic file (type png)
+<use images/data_exploration.png>
+Package pdftex.def Info: images/data_exploration.png  used on input line 611.
+(pdftex.def)             Requested size: 276.54764pt x 153.44553pt.
+ [19
+
+ <./images/data_exploration.png (PNG copy)>]
+<images/daily_seasonal.png, id=178, 752.8125pt x 564.60938pt>
+File: images/daily_seasonal.png Graphic file (type png)
+<use images/daily_seasonal.png>
+Package pdftex.def Info: images/daily_seasonal.png  used on input line 625.
+(pdftex.def)             Requested size: 169.00792pt x 126.75594pt.
+ [20
+
+ <./images/daily_seasonal.png (PNG copy)>]
+<images/model_validation.PNG, id=185, 525.76425pt x 364.9635pt>
+File: images/model_validation.PNG Graphic file (type png)
+<use images/model_validation.PNG>
+Package pdftex.def Info: images/model_validation.PNG  used on input line 645.
+(pdftex.def)             Requested size: 184.37323pt x 127.98416pt.
+
+Overfull \hbox (23.49976pt too wide) in paragraph at lines 645--645
+[][] 
+ []
+
+[21
+
+ <./images/model_validation.PNG>]
+Overfull \vbox (38.8175pt too high) detected at line 673
+ []
+
+[22
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (28.23784pt too high) detected at line 723
+ []
+
+[23
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [24
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+[25
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (58.22246pt too high) detected at line 850
+ []
+
+[26
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-9.pdf, id=224, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-9.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-9.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-9.pdf  used on input line 17.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (31.48497pt too high) detected at line 877
+ []
+
+[27
+
+ <./figs/unnamed-chunk-9.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (10.6623pt too high) detected at line 919
+ []
+
+[28
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-11.pdf, id=243, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-11.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-11.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-11.pdf  used on input line 17.
+(pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
+)
+Overfull \vbox (29.54173pt too high) detected at line 941
+ []
+
+[29
+
+ <./figs/unnamed-chunk-11.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [30
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+
+(MLinR_slides_Rladies2021.vrb) [31
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (0.8643pt too high) detected at line 1052
+ []
+
+[32
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [33
+
+] [34
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-16.pdf, id=294, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-16.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-16.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-16.pdf  used on input line 21.
+(pdftex.def)             Requested size: 184.36876pt x 122.61255pt.
+)
+Overfull \vbox (12.7275pt too high) detected at line 1130
+ []
+
+[35
+
+ <./figs/unnamed-chunk-16.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-17.pdf, id=309, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-17.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-17.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-17.pdf  used on input line 19.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (21.1176pt too high) detected at line 1154
+ []
+
+[36
+
+ <./figs/unnamed-chunk-17.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-18.pdf, id=321, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-18.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-18.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-18.pdf  used on input line 20.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (29.2016pt too high) detected at line 1179
+ []
+
+[37
+
+ <./figs/unnamed-chunk-18.pdf>] [38
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [39
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+
+(MLinR_slides_Rladies2021.vrb) [40
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [41
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+
+(MLinR_slides_Rladies2021.vrb) [42
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-23.pdf, id=367, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-23.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-23.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-23.pdf  used on input line 22.
+(pdftex.def)             Requested size: 184.36876pt x 122.61255pt.
+)
+Overfull \vbox (20.2294pt too high) detected at line 1365
+ []
+
+[43
+
+ <./figs/unnamed-chunk-23.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [44
+
+] [45
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+
+(MLinR_slides_Rladies2021.vrb)
+Underfull \hbox (badness 10000) in paragraph at lines 1461--1461
+ [][]\T1/lmss/bx/n/14.4 (+20) Bayesian optimization using 
+ []
+
+
+Overfull \vbox (21.56421pt too high) detected at line 1461
+ []
+
+[46
+
+] [47
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (8.91426pt too high) detected at line 1526
+ []
+
+[48
+
+] [49
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (0.8643pt too high) detected at line 1589
+ []
+
+[50
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-28.pdf, id=423, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-28.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-28.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-28.pdf  used on input line 16.
+(pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
+)
+Overfull \vbox (21.52582pt too high) detected at line 1610
+ []
+
+[51
+
+ <./figs/unnamed-chunk-28.pdf>] [52
+
+] [53
+
+]
+Overfull \vbox (5.22285pt too high) detected at line 1694
+ []
+
+[54
+
+] [55
+
+] [56
+
+]
+\tf@nav=\write7
+\openout7 = `MLinR_slides_Rladies2021.nav'.
+
+\tf@toc=\write8
+\openout8 = `MLinR_slides_Rladies2021.toc'.
+
+\tf@snm=\write9
+\openout9 = `MLinR_slides_Rladies2021.snm'.
+
+ (MLinR_slides_Rladies2021.aux)
+Package rerunfilecheck Info: File `MLinR_slides_Rladies2021.out' has not change
+d.
+(rerunfilecheck)             Checksum: 47949AC7C3DCEDDDEEFE3CD50587DDA1;103.
+ ) 
+Here is how much of TeX's memory you used:
+ 28885 strings out of 481270
+ 569272 string characters out of 2906482
+ 855176 words of memory out of 3000000
+ 45074 multiletter control sequences out of 15000+200000
+ 502759 words of font info for 167 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 131i,13n,132p,1829b,865s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvi
+ps/lm/lm-ec.enc}{/Users/kasun/Library/Application Support/MiKTeX/texmfs/install
+/fonts/enc/dvips/lm/lm-ts1.enc}</Users/kasun/Library/Application Support/MiKTeX
+/texmfs/install/fonts/type1/public/lm/lmss10.pfb></Users/kasun/Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss12.pfb></Users/kasu
+n/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmss1
+7.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/lm/lmss8.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/
+install/fonts/type1/public/lm/lmssbx10.pfb></Users/kasun/Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtk10.pfb></Users/kasun/Libr
+ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb>
+</Users/kasun/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/lm/lmtt12.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/insta
+ll/fonts/type1/public/lm/lmtt8.pfb></Users/kasun/Library/Application Support/Mi
+KTeX/texmfs/install/fonts/type1/public/lm/lmtti10.pfb>
+Output written on MLinR_slides_Rladies2021.pdf (56 pages, 1655043 bytes).
+PDF statistics:
+ 566 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 63624 words of extra memory for PDF output out of 74296 (max. 10000000)
+

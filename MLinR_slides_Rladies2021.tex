@@ -1093,7 +1093,7 @@ Known as the O.S.E.M.N. framework.
       \item K means: Computationally efficient, \textbf{Optimal K ?, Outliers?}
       \item Elbow and Silhouette methods to determine the optimal K
       \item \textbf{DBSCAN}: No restrictions on the cluster shapes
-      \item Feature are categorical ? \textbf{Partitioning Around Medoids (PAM)}
+      \item Features are categorical ? \textbf{Partitioning Around Medoids (PAM)}
       \item Hierarchical clustering: \textbf{cluster dendrogram}
     \end{itemize}
   \vspace{2mm}
@@ -1250,23 +1250,22 @@ Known as the O.S.E.M.N. framework.
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(keras)}
 \KeywordTok{library}\NormalTok{(rsample)}
-\KeywordTok{library}\NormalTok{(ggplot2)}
 \KeywordTok{library}\NormalTok{(dplyr)}
 
-\KeywordTok{data}\NormalTok{(diamonds)}
 \KeywordTok{set.seed}\NormalTok{(}\DecValTok{1234}\NormalTok{)}
 
-\CommentTok{# The initial preprocessing.}
-\CommentTok{# Use model.matrix for categorical variables (one-hot encoding)}
-\NormalTok{df_diamonds <-}\StringTok{ }\NormalTok{diamonds[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{2}\NormalTok{, }\DecValTok{-3}\NormalTok{, }\DecValTok{-4}\NormalTok{)]}
+\CommentTok{# Reading the data.}
+\NormalTok{df_households <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"data/realestate.csv"}\NormalTok{)}
+\NormalTok{df_households_filtered <-}\StringTok{ }\NormalTok{df_households[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{1}\NormalTok{,}\OperatorTok{-}\DecValTok{2}\NormalTok{)]}
 
-\CommentTok{# Data splitting.}
-\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_diamonds, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{)}
+\CommentTok{# Splitting the data.}
+\KeywordTok{colnames}\NormalTok{(df_households_filtered)[}\DecValTok{6}\NormalTok{] <-}\StringTok{ "price"}
+\NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_households_filtered, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{) }
 \NormalTok{train <-}\StringTok{ }\KeywordTok{training}\NormalTok{(data_split)}
-\NormalTok{test  <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
+\NormalTok{test <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
 
-\NormalTok{features <-}\StringTok{ }\KeywordTok{setdiff}\NormalTok{(}\KeywordTok{names}\NormalTok{(train), }\StringTok{"price"}\NormalTok{)}
-\NormalTok{train_features <-}\StringTok{ }\NormalTok{train[, features]}
+\NormalTok{features <-}\StringTok{ }\KeywordTok{setdiff}\NormalTok{(}\KeywordTok{names}\NormalTok{(train), }\StringTok{"price"}\NormalTok{) }
+\NormalTok{train_features <-}\StringTok{ }\NormalTok{train[, features] }
 \NormalTok{train_class <-}\StringTok{ }\NormalTok{train}\OperatorTok{$}\NormalTok{price}
 \end{Highlighting}
 \end{Shaded}
@@ -1287,11 +1286,25 @@ Known as the O.S.E.M.N. framework.
 \StringTok{  }\CommentTok{# The overall neural network architecture}
 \StringTok{  }\KeywordTok{layer_dense}\NormalTok{(}\DataTypeTok{units =} \DecValTok{10}\NormalTok{, }\DataTypeTok{activation =} \StringTok{"relu"}\NormalTok{, }\DataTypeTok{input_shape =} \KeywordTok{ncol}\NormalTok{(train_features)) }\OperatorTok{%>%}
 \StringTok{  }\KeywordTok{layer_batch_normalization}\NormalTok{() }\OperatorTok{%>%}\StringTok{ }\KeywordTok{layer_dense}\NormalTok{(}\DataTypeTok{units =} \DecValTok{5}\NormalTok{, }\DataTypeTok{activation =} \StringTok{"relu"}\NormalTok{) }\OperatorTok{%>%}
-\StringTok{  }\KeywordTok{layer_batch_normalization}\NormalTok{() }\OperatorTok{%>%}\StringTok{ }\KeywordTok{layer_dropout}\NormalTok{(}\DataTypeTok{rate =} \FloatTok{0.2}\NormalTok{) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{layer_dense}\NormalTok{(}\DataTypeTok{units =} \DecValTok{1}\NormalTok{) }\OperatorTok{%>%}
+\StringTok{  }\KeywordTok{layer_batch_normalization}\NormalTok{() }\OperatorTok{%>%}\StringTok{ }\KeywordTok{layer_dropout}\NormalTok{(}\DataTypeTok{rate =} \FloatTok{0.02}\NormalTok{) }\OperatorTok{%>%}\StringTok{ }\KeywordTok{layer_dense}\NormalTok{(}\DataTypeTok{units =} \DecValTok{1}\NormalTok{) }\OperatorTok{%>%}
+\StringTok{  }
 \StringTok{  }\CommentTok{# Defining the optimization algorithm and loss function. }
 \StringTok{  }\CommentTok{# Use binary and multi-categorical cross entropy for classification.}
 \StringTok{  }\KeywordTok{compile}\NormalTok{(}\DataTypeTok{optimizer =} \KeywordTok{optimizer_rmsprop}\NormalTok{(),}\DataTypeTok{loss =} \StringTok{"mse"}\NormalTok{,}\DataTypeTok{metrics =} \KeywordTok{c}\NormalTok{(}\StringTok{"mae"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
 
+\normalsize
+
+\end{frame}
+
+\begin{frame}[fragile]{Model Summary}
+\protect\hypertarget{model-summary}{}
+
+\tiny
+
+\begin{Shaded}
+\begin{Highlighting}[]
 \CommentTok{# print the summary of the model}
 \KeywordTok{summary}\NormalTok{(MLP_model)}
 \end{Highlighting}
@@ -1302,7 +1315,7 @@ Known as the O.S.E.M.N. framework.
 ## ________________________________________________________________________________
 ## Layer (type)                        Output Shape                    Param #     
 ## ================================================================================
-## dense_2 (Dense)                     (None, 10)                      70          
+## dense_2 (Dense)                     (None, 10)                      60          
 ## ________________________________________________________________________________
 ## batch_normalization_1 (BatchNormali (None, 10)                      40          
 ## ________________________________________________________________________________
@@ -1314,8 +1327,8 @@ Known as the O.S.E.M.N. framework.
 ## ________________________________________________________________________________
 ## dense (Dense)                       (None, 1)                       6           
 ## ================================================================================
-## Total params: 191
-## Trainable params: 161
+## Total params: 181
+## Trainable params: 151
 ## Non-trainable params: 30
 ## ________________________________________________________________________________
 \end{verbatim}
@@ -1335,8 +1348,8 @@ Known as the O.S.E.M.N. framework.
 \NormalTok{learn <-}\StringTok{ }\NormalTok{MLP_model }\OperatorTok{%>%}\StringTok{ }\KeywordTok{fit}\NormalTok{(}
   \DataTypeTok{x =} \KeywordTok{as.matrix}\NormalTok{(train_features),}
   \DataTypeTok{y =} \KeywordTok{as.matrix}\NormalTok{(train_class),}
-  \DataTypeTok{epochs =} \DecValTok{15}\NormalTok{,}
-  \DataTypeTok{batch_size =} \DecValTok{32}\NormalTok{,}
+  \DataTypeTok{epochs =} \DecValTok{10}\NormalTok{,}
+  \DataTypeTok{batch_size =} \DecValTok{10}\NormalTok{,}
   \DataTypeTok{validation_split =} \FloatTok{.2}\NormalTok{,}
   \DataTypeTok{verbose =} \OtherTok{TRUE}
 \NormalTok{)}
@@ -1345,7 +1358,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.6\linewidth,height=0.5\textheight]{figs/unnamed-chunk-22} \end{center}
+\begin{center}\includegraphics[width=0.6\linewidth,height=0.5\textheight]{figs/unnamed-chunk-23} \end{center}
 
 \normalsize
 
@@ -1368,6 +1381,13 @@ Known as the O.S.E.M.N. framework.
 
 \CommentTok{# Generating error summary statistic.}
 \NormalTok{model_results <-}\StringTok{ }\NormalTok{MLP_model }\OperatorTok{%>%}\StringTok{ }\KeywordTok{evaluate}\NormalTok{(}\KeywordTok{as.matrix}\NormalTok{(test_features), }\KeywordTok{as.matrix}\NormalTok{(test_class))}
+
+\CommentTok{# Model performance summary.}
+\KeywordTok{data.frame}\NormalTok{(}
+\DataTypeTok{MSE=} \KeywordTok{as.numeric}\NormalTok{(model_results[}\DecValTok{1}\NormalTok{]), }\DataTypeTok{MAE =} \KeywordTok{as.numeric}\NormalTok{(}\KeywordTok{as.numeric}\NormalTok{(model_results[}\DecValTok{2}\NormalTok{]))}
+\NormalTok{)}
+
+\KeywordTok{print}\NormalTok{(model_results)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1583,9 +1603,48 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-27} \end{center}
+\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-28} \end{center}
 
 \normalsize
+
+\end{frame}
+
+\begin{frame}{Highlights}
+\protect\hypertarget{highlights}{}
+
+\begin{itemize}
+\tightlist
+\item
+  Key steps in the data science life cycle. \vspace{2mm}
+\item
+  Processes before the prediction part are super important \vspace{2mm}
+\item
+  Supervised vs Unsupervised \vspace{2mm}
+\item
+  Measuring prediction accuracy \vspace{2mm}
+\item
+  Simple models to complex deep neural networks \vspace{2mm}
+\item
+  Hyper-parameter optimization \vspace{2mm}
+\item
+  Model Explainability
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{}
+\protect\hypertarget{section}{}
+
+\Huge
+\center
+
+Thank You
+
+\normalsize
+
+\url{https://github.com/kasungayan/RladiesTalk21}
+
+kasun.bandara@unimelb.edu.au
 
 \end{frame}
 
@@ -1601,14 +1660,17 @@ R package version 1.0.0. \url{https://CRAN.R-project.org/package=rvest}
 package version 0.2.6.
 \url{https://CRAN.R-project.org/package=simputation}
 
-{[}3{]}
-\url{https://cran.r-project.org/web/packages/simputation/vignettes/intro.html}
+{[}3{]} Simputation
+Package:\url{https://cran.r-project.org/web/packages/simputation/vignettes/intro.html}.
+Accessed: 2021-03-27.
 
-{[}4{]}
-\url{https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/}
+{[}4{]} Feature Selection Methods:
+2016.https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/.
+Accessed: 2021-03-27.
 
-{[}5{]}
-\url{https://www.kaggle.com/zurfer/how-to-use-principle-component-analysis-in-r}
+{[}5{]} How to use Principle Component Analysis in R: 2017.
+\url{https://www.kaggle.com/zurfer/how-to-use-principle-component-analysis-in-r}.
+Accessed: 2021-03-27.
 
 {[}6{]} Miron B. Kursa, Witold R. Rudnicki (2010). Feature Selection
 with the Boruta Package. Journal of Statistical Software, 36(11), 1-13.
@@ -1626,7 +1688,8 @@ GGally: Extension to `ggplot2'. R package version 2.1.1.
 Feature Extraction and Statistics for Time Series. R package version
 0.1.7. \url{https://CRAN.R-project.org/package=feasts}
 
-{[}10{]} \url{https://rpubs.com/maulikpatel/229337}
+{[}10{]} RPubs - classification tree using caret package:
+\url{https://rpubs.com/maulikpatel/229337}. Accessed: 2021-03-27.
 
 \end{frame}
 
@@ -1639,7 +1702,8 @@ Feature Extraction and Statistics for Time Series. R package version
 rsample: General Resampling Infrastructure. R package version 0.0.9.
 \url{https://CRAN.R-project.org/package=rsample}
 
-{[}12{]} \url{https://uc-r.github.io/naive_bayes}
+{[}12{]} Naive Bayes Classifier:
+\url{https://uc-r.github.io/naive_bayes}. Accessed: 2021-03-27.
 
 {[}13{]} Jarek Tuszynski (2021). caTools: Tools: Moving Window
 Statistics, GIF, Base64, ROC AUC, etc. R package version 1.18.1.
@@ -1659,7 +1723,44 @@ Extract and Visualize the Results of Multivariate Data Analyses. R
 package version 1.0.7.
 \url{https://CRAN.R-project.org/package=factoextra}
 
-{[}17{]} \url{https://uc-r.github.io/kmeans_clustering}
+{[}17{]} K-means Cluster Analysis:
+\url{https://uc-r.github.io/kmeans_clustering}. Accessed: 2021-03-27.
+
+{[}18{]} JJ Allaire and François Chollet (2020). keras: R Interface to
+`Keras'. R package version 2.3.0.0.
+\url{https://CRAN.R-project.org/package=keras}
+
+{[}19{]} Nikolai Sellereite, Martin Jullum and Annabelle Redelmeier
+(2021). shapr: Prediction Explanation with Dependence-Aware Shapley
+Values. R package version 0.2.0.
+\url{https://CRAN.R-project.org/package=shapr}
+
+{[}20{]} Guolin Ke, Damien Soukhavong, James Lamb, Qi Meng, Thomas
+Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye and Tie-Yan Liu
+(2020). lightgbm: Light Gradient Boosting Machine. R package version
+3.1.1. \url{https://CRAN.R-project.org/package=lightgbm}
+
+\end{frame}
+
+\begin{frame}{References}
+\protect\hypertarget{references-2}{}
+
+\tiny
+
+{[}21{]} Yachen Yan (2016). rBayesianOptimization: Bayesian Optimization
+of Hyperparameters. R package version 1.1.0.
+\url{https://CRAN.R-project.org/package=rBayesianOptimization}
+
+{[}22{]} Feedforward Deep Learning Models:
+\url{http://uc-r.github.io/feedforward_DNN}. Accessed: 2021-03-27.
+
+{[}23{]} Light Gradient Boosting Machine:
+\url{https://lightgbm.readthedocs.io/en/latest/R/index.html}. Accessed:
+2021-03-27.
+
+{[}24{]} Bayesian Optimization of Machine Learning Models: 2016.
+\url{https://www.r-bloggers.com/2016/06/bayesian-optimization-of-machine-learning-models/}.
+Accessed: 2021-03-27.
 
 \end{frame}
 

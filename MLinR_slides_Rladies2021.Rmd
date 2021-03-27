@@ -529,7 +529,7 @@ data.frame(
       \item K means: Computationally efficient, \textbf{Optimal K ?, Outliers?}
       \item Elbow and Silhouette methods to determine the optimal K
       \item \textbf{DBSCAN}: No restrictions on the cluster shapes
-      \item Feature are categorical ? \textbf{Partitioning Around Medoids (PAM)}
+      \item Features are categorical ? \textbf{Partitioning Around Medoids (PAM)}
       \item Hierarchical clustering: \textbf{cluster dendrogram}
     \end{itemize}
 \vspace{2mm}
@@ -617,41 +617,47 @@ mlp_fit <- train(price ~ ., train, method = "nnet",trControl = trainControl(meth
 ```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
 library(keras)
 library(rsample)
-library(ggplot2)
 library(dplyr)
 
-data(diamonds)
 set.seed(1234)
 
-# The initial preprocessing.
-# Use model.matrix for categorical variables (one-hot encoding)
-df_diamonds <- diamonds[, c(-2, -3, -4)]
+# Reading the data.
+df_households <- read.csv("data/realestate.csv")
+df_households_filtered <- df_households[, c(-1,-2)]
 
-# Data splitting.
-data_split <- initial_split(df_diamonds, prop = .7)
+# Splitting the data.
+colnames(df_households_filtered)[6] <- "price"
+data_split <- initial_split(df_households_filtered, prop = .7) 
 train <- training(data_split)
-test  <- testing(data_split)
+test <- testing(data_split)
 
-features <- setdiff(names(train), "price")
-train_features <- train[, features]
+features <- setdiff(names(train), "price") 
+train_features <- train[, features] 
 train_class <- train$price
+
 ``` 
 
 ## Model definition
 ```{r size="tiny",fig.align="center", warning=F, message=F}
+
 # Defining the model
 MLP_model <- keras_model_sequential() %>%
   # The overall neural network architecture
   layer_dense(units = 10, activation = "relu", input_shape = ncol(train_features)) %>%
   layer_batch_normalization() %>% layer_dense(units = 5, activation = "relu") %>%
-  layer_batch_normalization() %>% layer_dropout(rate = 0.2) %>% layer_dense(units = 1) %>%
+  layer_batch_normalization() %>% layer_dropout(rate = 0.02) %>% layer_dense(units = 1) %>%
+  
   # Defining the optimization algorithm and loss function. 
   # Use binary and multi-categorical cross entropy for classification.
   compile(optimizer = optimizer_rmsprop(),loss = "mse",metrics = c("mae"))
+``` 
 
+## Model Summary
+```{r size="tiny",fig.align="center", warning=F, message=F}
 # print the summary of the model
 summary(MLP_model)
 ``` 
+
 
 ## Model Training
 ```{r out.width="60%", out.height="50%", size="tiny",fig.align="center", warning=F, message=F, results='hide'}
@@ -660,8 +666,8 @@ summary(MLP_model)
 learn <- MLP_model %>% fit(
   x = as.matrix(train_features),
   y = as.matrix(train_class),
-  epochs = 15,
-  batch_size = 32,
+  epochs = 10,
+  batch_size = 10,
   validation_split = .2,
   verbose = TRUE
 )
@@ -681,6 +687,13 @@ model_predictions[model_predictions < 0] <- 0
 
 # Generating error summary statistic.
 model_results <- MLP_model %>% evaluate(as.matrix(test_features), as.matrix(test_class))
+
+# Model performance summary.
+data.frame(
+MSE= as.numeric(model_results[1]), MAE = as.numeric(as.numeric(model_results[2]))
+)
+
+print(model_results)
 ``` 
 
 ## Hyper-parameter optimization
@@ -826,7 +839,37 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 
 ```
 
-## References
+## Highlights
+
+- Key steps in the data science life cycle.
+ \vspace{2mm}
+- Processes before the prediction part are super important
+ \vspace{2mm}
+- Supervised vs Unsupervised
+ \vspace{2mm}
+- Measuring prediction accuracy
+ \vspace{2mm}
+- Simple models to complex deep neural networks
+ \vspace{2mm}
+- Hyper-parameter optimization
+ \vspace{2mm}
+- Model Explainability
+
+##
+
+\Huge
+\center
+Thank You
+
+\normalsize
+
+https://github.com/kasungayan/RladiesTalk21
+
+kasun.bandara\@unimelb.edu.au
+
+
+
+## References 
 
 \tiny 
 [1] Hadley Wickham (2021). rvest: Easily Harvest (Scrape) Web Pages. R package version 1.0.0.
@@ -834,11 +877,11 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
   
 [2] Mark van der Loo (2021). simputation: Simple Imputation. R package version 0.2.6. https://CRAN.R-project.org/package=simputation
   
-[3]  https://cran.r-project.org/web/packages/simputation/vignettes/intro.html
+[3] Simputation Package:https://cran.r-project.org/web/packages/simputation/vignettes/intro.html. Accessed: 2021-03-27.
 
-[4] https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/
+[4] Feature Selection Methods: 2016.https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/. Accessed: 2021-03-27.
 
-[5] https://www.kaggle.com/zurfer/how-to-use-principle-component-analysis-in-r
+[5] How to use Principle Component Analysis in R: 2017. https://www.kaggle.com/zurfer/how-to-use-principle-component-analysis-in-r. Accessed: 2021-03-27.
 
 [6] Miron B. Kursa, Witold R. Rudnicki (2010). Feature Selection with the Boruta Package. Journal of Statistical Software,
   36(11), 1-13. URL http://www.jstatsoft.org/v36/i11/
@@ -852,15 +895,15 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 [9] Mitchell O'Hara-Wild, Rob Hyndman and Earo Wang (2021). feasts: Feature Extraction and Statistics for Time Series. R
   package version 0.1.7. https://CRAN.R-project.org/package=feasts
 
-[10] https://rpubs.com/maulikpatel/229337
+[10] RPubs - classification tree using caret package: https://rpubs.com/maulikpatel/229337. Accessed: 2021-03-27.
 
-## References 
+## References
 
 \tiny 
 [11] Julia Silge, Fanny Chow, Max Kuhn and Hadley Wickham (2021). rsample: General Resampling Infrastructure. R package
   version 0.0.9. https://CRAN.R-project.org/package=rsample
   
-[12] https://uc-r.github.io/naive_bayes
+[12] Naive Bayes Classifier: https://uc-r.github.io/naive_bayes. Accessed: 2021-03-27.
 
 [13] Jarek Tuszynski (2021). caTools: Tools: Moving Window Statistics, GIF, Base64, ROC AUC, etc. R package version 1.18.1.
   https://CRAN.R-project.org/package=caTools
@@ -874,6 +917,29 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 [16] Alboukadel Kassambara and Fabian Mundt (2020). factoextra: Extract and Visualize the Results of Multivariate Data
   Analyses. R package version 1.0.7. https://CRAN.R-project.org/package=factoextra
   
-[17] https://uc-r.github.io/kmeans_clustering
+[17] K-means Cluster Analysis: https://uc-r.github.io/kmeans_clustering. Accessed: 2021-03-27.
+
+[18] JJ Allaire and François Chollet (2020). keras: R Interface to 'Keras'. R package version 2.3.0.0.
+  https://CRAN.R-project.org/package=keras
+  
+[19] Nikolai Sellereite, Martin Jullum and Annabelle Redelmeier (2021). shapr: Prediction Explanation with Dependence-Aware
+  Shapley Values. R package version 0.2.0. https://CRAN.R-project.org/package=shapr
+  
+[20] Guolin Ke, Damien Soukhavong, James Lamb, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye and
+  Tie-Yan Liu (2020). lightgbm: Light Gradient Boosting Machine. R package version 3.1.1.
+  https://CRAN.R-project.org/package=lightgbm
+  
+## References 
+\tiny 
+
+[21] Yachen Yan (2016). rBayesianOptimization: Bayesian Optimization of Hyperparameters. R package version 1.1.0.
+  https://CRAN.R-project.org/package=rBayesianOptimization
+  
+[22] Feedforward Deep Learning Models: http://uc-r.github.io/feedforward_DNN. Accessed: 2021-03-27.
+
+[23] Light Gradient Boosting Machine: https://lightgbm.readthedocs.io/en/latest/R/index.html. Accessed: 2021-03-27.
+
+[24] Bayesian Optimization of Machine Learning Models: 2016. https://www.r-bloggers.com/2016/06/bayesian-optimization-of-machine-learning-models/. Accessed: 2021-03-27.
+  
   
   
