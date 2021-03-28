@@ -40,8 +40,6 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 \includegraphics[scale=0.22]{images/kasun}
 \end{figure}
 
-# Introduction
-
 ## About me
 - 2015 Graduated in Computer Science from University of Colombo School of Computing
 - 2015 Joined WSO2 Inc. as a Software Engineer
@@ -65,6 +63,8 @@ knitr::knit_hooks$set(chunk = function(x, options) {
   - IEEE CIS Energy Forecasting Competition (**4th Place**)
   - Air-Liquide Energy Forecasting Competition (**4th Place**)
   - ANZ Customer Segmentation Challenge (**Top Performer**) 
+  
+# Data Science
 
 ## What is Data Science ?
 Data Science is an interdisciplinary field that permits you to extract information from organized or unstructured data.
@@ -94,7 +94,7 @@ Known as the O.S.E.M.N. framework.
 - Retrieving data from multiple sources of inputs. \
  \begin{itemize}
       \item Structured Data: RDBMS, Tabular Data, CSV, TSV.
-      \item Unstructured Data: NoSQL Databases, API Data (Twitter, Facebook).
+      \item Unstructured Data: NoSQL Databases, API Data (Twitter, Facebook)
 \end{itemize}
  \vspace{2mm}
 - Databases: \texttt{\{odbc\}}
@@ -131,21 +131,23 @@ lor_movie %>%
   html_attr("src")
 ```  
 
+# Pre-processing
+
 ## Scrub (S)
-- Also known as \textbf{data pre-processing}, \textbf{data wrangling}. \
+- Also known as \textbf{data pre-processing}, \textbf{data wrangling} \
  \vspace{2mm}
 - Converting the data into a unified, suitable format
 \begin{itemize}
-      \item Easier for the data exploration process.
+      \item Easier for the data exploration process
       \item What your predictive algorithm expects ?
       \item \textbf{tidyverse} \texttt{\{dplyr,tidyr,stringr,tibble,purr,ggplot2\}}
 \end{itemize}
  \vspace{2mm}
 - Handles data issues 
 \begin{itemize}
-      \item Cleaning: Missing values, Outliers, Noisy data.
-      \item Transformation: Normalisation, Feature Discretization.
-      \item Reduction: Feature selection, Dimensionality reduction.
+      \item Cleaning: Missing values, Outliers, Noisy data
+      \item Transformation: Normalisation, Feature Discretization
+      \item Reduction: Feature selection, Dimensionality reduction
 \end{itemize}
 
 ## Missing Value Imputation
@@ -180,9 +182,9 @@ model_imputed <- impute(df_NA, Sepal.Length ~ model)
 ``` 
 
 ## Dealing with Outliers
-- A data point that differs significantly from other observations. \
+- A data point that differs significantly from other observations \
  \vspace{2mm}
-- Observations that distort your analysis.
+- Observations that distort your analysis
 \begin{itemize}
       \item Boxplot visualisation: \texttt{\{ggplot2\}}
       \item Grubbs’s test, Dixon’s test, Rosner’s test: \texttt{\{outliers\}}
@@ -200,21 +202,21 @@ model_imputed <- impute(df_NA, Sepal.Length ~ model)
 
 
 ## Feature Selection
-- Removing redundant features from the dataset.
+- Removing redundant features from the dataset
  \vspace{2mm}
-- Computational complexity, Address model overfitting.
+- Computational complexity, Address model overfitting
  \vspace{2mm}
 - \textbf{Filter Methods}
 \begin{itemize}
-      \item Features are selected based on a statistical score.
-      \item Independent of any machine learning algorithm.
+      \item Features are selected based on a statistical score
+      \item Independent of any machine learning algorithm
       \item \textbf{Pearson’s Correlation, Chi-Square, PCA}
 \end{itemize}
  \vspace{2mm}
 - \textbf{Wrapper Methods}
 \begin{itemize}
-      \item A subset of features are used to train a model.
-      \item Forward, Backward, Recursive elimination.
+      \item A subset of features are used to train a model
+      \item Forward, Backward, Recursive elimination
       \item Inbuilt penalization functions: \textbf{LASSO, RIDGE} regression 
       \item \texttt{\{Boruta,caret,glmnet\}}
 \end{itemize}
@@ -270,18 +272,20 @@ rPart_imp <- varImp(rPart_df)
 plot(rPart_imp, top = 3, main='Variable Importance', ylab = "Features")
 ```  
 
+# Data Visualisation
+
 ## Explore (E)
-- Examination of data, features, and their characteristics.
+- Examination of data, features, and their characteristics
  \vspace{2mm}
 \begin{itemize}
-      \item Data types: numerical, ordinal, and nominal data.
-      \item Summary statistics.
-      \item Feature distributions.
-      \item Feature correlations (positive, negative).
+      \item Data types: numerical, ordinal, and nominal data
+      \item Summary statistics
+      \item Feature distributions
+      \item Feature correlations (positive, negative)
       \item Classification: class distribution (\textbf{Class Imbalance?})
 \end{itemize}
  \vspace{2mm}
-- Invest your time more on the data exploration process.
+- Invest your time more on the data exploration process
 \begin{itemize}
       \item Frequency distribution: \textbf{Histograms}
       \item Outlier detection: \textbf{Box plots}
@@ -310,8 +314,10 @@ plot(rPart_imp, top = 3, main='Variable Importance', ylab = "Features")
   }
 \end{figure}
 
+# Model Prediction
+
 ## Model Development (MD) 
-- Model parameter estimation, Hyper-parameter tuning.
+- Model parameter estimation, Hyper-parameter tuning
 \vspace{2mm}
 \begin{figure}
   \includegraphics[width=.6\textwidth,height=.6\textheight,keepaspectratio]{images/model_validation.PNG}
@@ -333,7 +339,7 @@ plot(rPart_imp, top = 3, main='Variable Importance', ylab = "Features")
 \vspace{2mm}
 - Neural Networks: Multilayer Perceptron (**MLP**), Recurrent Neural Network (**RNN**), Convolutional Neural Network (**CNN**)
 \vspace{2mm}
-- Different applications: **Spam Detection**, **Market Segmentation**, **Image Classification**, **Time Series Forecasting**, **Language Translation**, **Voice Recognition**
+- Different applications: **Spam Detection**, **Market Segmentation**, **Image Classification**, **Time Series Forecasting**, **Language Translation**
 
 ## Naive Bayes classifier
 
@@ -521,7 +527,7 @@ data.frame(
 
 
 ## Unsupervised Learning
-- Learning patterns from unlabbled data.
+- Learning patterns from unlabbled data
  \vspace{2mm}
 - Clustering ?
  \vspace{2mm}
@@ -696,8 +702,10 @@ MSE= as.numeric(model_results[1]), MAE = as.numeric(as.numeric(model_results[2])
 print(model_results)
 ``` 
 
+# Hyper-parameter Tuning
+
 ## Hyper-parameter optimization
-- Determining the optimal hyper-parameters for a machine learning algorithm.
+- Determining the optimal hyper-parameters for a machine learning algorithm
  \vspace{2mm}
 - Important for models with large number of hyper-parameters (neural networks)
     \begin{itemize}
@@ -709,7 +717,7 @@ print(model_results)
  \vspace{2mm}
 - An intelligent hyper-parameter search ?
 
-## Bayesian optimization using \texttt{\{rBayesianOptimization\}}
+## Bayesian optimization
 ```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
 library(caret)
 library(rBayesianOptimization)
@@ -718,32 +726,44 @@ set.seed(1234)
 df_households <- read.csv("data/realestate.csv")
 df_households_filtered <- df_households[, c(-1,-2)]
 colnames(df_households_filtered)[6] <- "price"
+
 # Data splitting.
 data_split <- initial_split(df_households_filtered, prop = .7)
 train <- training(data_split)
 test  <- testing(data_split)
+
 # Define a 10-fold cross validation procedure.
 train_control <- trainControl(method = "cv", number = 5)
+```
+
+## Bayesian optimization
+```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
+
 # Defining the fit of the SVM model
 svm_model_fit <- function(logC, logSigma) {
   model <- train(price ~ ., data = train, method = "svmRadial", metric = "RMSE",
                   trControl = train_control,tuneGrid = data.frame(C = exp(logC), sigma = exp(logSigma)))
   list(Score = -getTrainPerf(mod)[, "TrainRMSE"], Pred = 0)
 }
+
 ## Define the bounds and search for hyper-parameters.
 lower_bounds <- c(logC = -8, logSigma = -10)
 upper_bounds <- c(logC = 15, logSigma = -0.65)
-svm_bounds <- list(logC = c(lower_bounds[1], upper_bounds[1]), logSigma = c(lower_bounds[2], upper_bounds[2]))
+svm_bounds <- list(logC = c(lower_bounds[1], upper_bounds[1]), 
+                   logSigma = c(lower_bounds[2], upper_bounds[2]))
+
 # svm_ba_search <- BayesianOptimization(svm_model_fit,
 #    bounds = svm_bounds,init_grid_dt = NULL, init_points = 0,n_iter = 4, verbose = TRUE)
 ```
 
+# Gradient Boosting Trees
+
 ## Light Gradient Boosting Machine (LightGBM)
-- Gradient boosting framework that uses tree based learning algorithms.
+- Gradient boosting framework that uses tree based learning algorithms
  \vspace{2mm}
-- Used for both classification and regression tasks.
+- Used for both classification and regression tasks
  \vspace{2mm}
-- Leading algorithm in many machine learning competitions (Kaggle).
+- Leading algorithm in many machine learning competitions (Kaggle)
 \vspace{2mm}
     \begin{itemize}
       \item Faster training speed and higher efficiency
@@ -783,12 +803,14 @@ lightgbm_model <- lgb.train(params, dtrain,100, valids, min_data = 1,learning_ra
 lightgbm_predictions <- predict(lightgbm_model, as.matrix(test[, 1:4]), reshape = TRUE)
 ```
 
+# Model Interpretability
+
 ## Model Explainability
 - Majority of the machine learning models are black-box.
  \vspace{2mm}
 - Interpreting and explaining model predictions.
  \vspace{2mm}
-- Explainable machine learning (GDPR law: Right explanation)
+- Explainable machine learning (GDPR law: Right for explanation)
 \vspace{2mm}
     \begin{itemize}
       \item Global and Local Interpretable models
@@ -843,7 +865,7 @@ plot(explanation, plot_phi0 = FALSE, index_x_test = c(2, 4, 8, 16))
 
 - Key steps in the data science life cycle.
  \vspace{2mm}
-- Processes before the prediction part are super important
+- Processes before the modeling step are super important
  \vspace{2mm}
 - Supervised vs Unsupervised
  \vspace{2mm}

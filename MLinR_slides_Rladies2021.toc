@@ -1,1 +1,7 @@
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {1}{Data Science}{5}{0}{1}
+\beamer@sectionintoc {2}{Pre-processing}{10}{0}{2}
+\beamer@sectionintoc {3}{Data Visualisation}{19}{0}{3}
+\beamer@sectionintoc {4}{Model Prediction}{23}{0}{4}
+\beamer@sectionintoc {5}{Hyper-parameter Tuning}{48}{0}{5}
+\beamer@sectionintoc {6}{Gradient Boosting Trees}{52}{0}{6}
+\beamer@sectionintoc {7}{Model Interpretability}{55}{0}{7}

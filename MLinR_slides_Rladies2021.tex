@@ -177,9 +177,6 @@
 
 \end{frame}
 
-\hypertarget{introduction}{%
-\section{Introduction}\label{introduction}}
-
 \begin{frame}{About me}
 \protect\hypertarget{about-me}{}
 
@@ -249,6 +246,9 @@
 
 \end{frame}
 
+\hypertarget{data-science}{%
+\section{Data Science}\label{data-science}}
+
 \begin{frame}{What is Data Science ?}
 \protect\hypertarget{what-is-data-science}{}
 
@@ -292,7 +292,7 @@ Known as the O.S.E.M.N. framework.
 
   \begin{itemize}
       \item Structured Data: RDBMS, Tabular Data, CSV, TSV.
-      \item Unstructured Data: NoSQL Databases, API Data (Twitter, Facebook).
+      \item Unstructured Data: NoSQL Databases, API Data (Twitter, Facebook)
   \end{itemize}
    \vspace{2mm}
 \item
@@ -343,19 +343,22 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
+\hypertarget{pre-processing}{%
+\section{Pre-processing}\label{pre-processing}}
+
 \begin{frame}{Scrub (S)}
 \protect\hypertarget{scrub-s}{}
 
 \begin{itemize}
 \tightlist
 \item
-  Also known as \textbf{data pre-processing}, \textbf{data wrangling}.\\
+  Also known as \textbf{data pre-processing}, \textbf{data wrangling}\\
   \vspace{2mm}
 \item
   Converting the data into a unified, suitable format
 
   \begin{itemize}
-      \item Easier for the data exploration process.
+      \item Easier for the data exploration process
       \item What your predictive algorithm expects ?
       \item \textbf{tidyverse} \texttt{\{dplyr,tidyr,stringr,tibble,purr,ggplot2\}}
   \end{itemize}
@@ -364,9 +367,9 @@ Known as the O.S.E.M.N. framework.
   Handles data issues
 
   \begin{itemize}
-      \item Cleaning: Missing values, Outliers, Noisy data.
-      \item Transformation: Normalisation, Feature Discretization.
-      \item Reduction: Feature selection, Dimensionality reduction.
+      \item Cleaning: Missing values, Outliers, Noisy data
+      \item Transformation: Normalisation, Feature Discretization
+      \item Reduction: Feature selection, Dimensionality reduction
   \end{itemize}
 \end{itemize}
 
@@ -417,10 +420,10 @@ Known as the O.S.E.M.N. framework.
 \begin{itemize}
 \tightlist
 \item
-  A data point that differs significantly from other observations.\\
+  A data point that differs significantly from other observations\\
   \vspace{2mm}
 \item
-  Observations that distort your analysis.
+  Observations that distort your analysis
 
   \begin{itemize}
       \item Boxplot visualisation: \texttt{\{ggplot2\}}
@@ -448,15 +451,15 @@ Known as the O.S.E.M.N. framework.
 \begin{itemize}
 \tightlist
 \item
-  Removing redundant features from the dataset. \vspace{2mm}
+  Removing redundant features from the dataset \vspace{2mm}
 \item
-  Computational complexity, Address model overfitting. \vspace{2mm}
+  Computational complexity, Address model overfitting \vspace{2mm}
 \item
   \textbf{Filter Methods}
 
   \begin{itemize}
-      \item Features are selected based on a statistical score.
-      \item Independent of any machine learning algorithm.
+      \item Features are selected based on a statistical score
+      \item Independent of any machine learning algorithm
       \item \textbf{Pearson’s Correlation, Chi-Square, PCA}
   \end{itemize}
    \vspace{2mm}
@@ -464,8 +467,8 @@ Known as the O.S.E.M.N. framework.
   \textbf{Wrapper Methods}
 
   \begin{itemize}
-      \item A subset of features are used to train a model.
-      \item Forward, Backward, Recursive elimination.
+      \item A subset of features are used to train a model
+      \item Forward, Backward, Recursive elimination
       \item Inbuilt penalization functions: \textbf{LASSO, RIDGE} regression 
       \item \texttt{\{Boruta,caret,glmnet\}}
   \end{itemize}
@@ -567,24 +570,27 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
+\hypertarget{data-visualisation}{%
+\section{Data Visualisation}\label{data-visualisation}}
+
 \begin{frame}{Explore (E)}
 \protect\hypertarget{explore-e}{}
 
 \begin{itemize}
 \tightlist
 \item
-  Examination of data, features, and their characteristics. \vspace{2mm}
+  Examination of data, features, and their characteristics \vspace{2mm}
 
   \begin{itemize}
-      \item Data types: numerical, ordinal, and nominal data.
-      \item Summary statistics.
-      \item Feature distributions.
-      \item Feature correlations (positive, negative).
+      \item Data types: numerical, ordinal, and nominal data
+      \item Summary statistics
+      \item Feature distributions
+      \item Feature correlations (positive, negative)
       \item Classification: class distribution (\textbf{Class Imbalance?})
   \end{itemize}
    \vspace{2mm}
 \item
-  Invest your time more on the data exploration process.
+  Invest your time more on the data exploration process
 
   \begin{itemize}
       \item Frequency distribution: \textbf{Histograms}
@@ -624,13 +630,16 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
+\hypertarget{model-prediction}{%
+\section{Model Prediction}\label{model-prediction}}
+
 \begin{frame}{Model Development (MD)}
 \protect\hypertarget{model-development-md}{}
 
 \begin{itemize}
 \tightlist
 \item
-  Model parameter estimation, Hyper-parameter tuning. \vspace{2mm}
+  Model parameter estimation, Hyper-parameter tuning \vspace{2mm}
 
   \begin{figure}
   \includegraphics[width=.6\textwidth,height=.6\textheight,keepaspectratio]{images/model_validation.PNG}
@@ -666,8 +675,7 @@ Known as the O.S.E.M.N. framework.
 \item
   Different applications: \textbf{Spam Detection}, \textbf{Market
   Segmentation}, \textbf{Image Classification}, \textbf{Time Series
-  Forecasting}, \textbf{Language Translation}, \textbf{Voice
-  Recognition}
+  Forecasting}, \textbf{Language Translation}
 \end{itemize}
 
 \end{frame}
@@ -1085,7 +1093,7 @@ Known as the O.S.E.M.N. framework.
 \begin{itemize}
 \tightlist
 \item
-  Learning patterns from unlabbled data. \vspace{2mm}
+  Learning patterns from unlabbled data \vspace{2mm}
 \item
   Clustering ? \vspace{2mm}
 
@@ -1395,6 +1403,9 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
+\hypertarget{hyper-parameter-tuning}{%
+\section{Hyper-parameter Tuning}\label{hyper-parameter-tuning}}
+
 \begin{frame}{Hyper-parameter optimization}
 \protect\hypertarget{hyper-parameter-optimization}{}
 
@@ -1402,7 +1413,7 @@ Known as the O.S.E.M.N. framework.
 \tightlist
 \item
   Determining the optimal hyper-parameters for a machine learning
-  algorithm. \vspace{2mm}
+  algorithm \vspace{2mm}
 \item
   Important for models with large number of hyper-parameters (neural
   networks)
@@ -1420,9 +1431,8 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
-\begin{frame}[fragile]{Bayesian optimization using
-\texttt{\{rBayesianOptimization\}}}
-\protect\hypertarget{bayesian-optimization-using}{}
+\begin{frame}[fragile]{Bayesian optimization}
+\protect\hypertarget{bayesian-optimization}{}
 
 \tiny
 
@@ -1435,22 +1445,41 @@ Known as the O.S.E.M.N. framework.
 \NormalTok{df_households <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"data/realestate.csv"}\NormalTok{)}
 \NormalTok{df_households_filtered <-}\StringTok{ }\NormalTok{df_households[, }\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{1}\NormalTok{,}\OperatorTok{-}\DecValTok{2}\NormalTok{)]}
 \KeywordTok{colnames}\NormalTok{(df_households_filtered)[}\DecValTok{6}\NormalTok{] <-}\StringTok{ "price"}
+
 \CommentTok{# Data splitting.}
 \NormalTok{data_split <-}\StringTok{ }\KeywordTok{initial_split}\NormalTok{(df_households_filtered, }\DataTypeTok{prop =} \FloatTok{.7}\NormalTok{)}
 \NormalTok{train <-}\StringTok{ }\KeywordTok{training}\NormalTok{(data_split)}
 \NormalTok{test  <-}\StringTok{ }\KeywordTok{testing}\NormalTok{(data_split)}
+
 \CommentTok{# Define a 10-fold cross validation procedure.}
 \NormalTok{train_control <-}\StringTok{ }\KeywordTok{trainControl}\NormalTok{(}\DataTypeTok{method =} \StringTok{"cv"}\NormalTok{, }\DataTypeTok{number =} \DecValTok{5}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\normalsize
+
+\end{frame}
+
+\begin{frame}[fragile]{Bayesian optimization}
+\protect\hypertarget{bayesian-optimization-1}{}
+
+\tiny
+
+\begin{Shaded}
+\begin{Highlighting}[]
 \CommentTok{# Defining the fit of the SVM model}
 \NormalTok{svm_model_fit <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(logC, logSigma) \{}
 \NormalTok{  model <-}\StringTok{ }\KeywordTok{train}\NormalTok{(price }\OperatorTok{~}\StringTok{ }\NormalTok{., }\DataTypeTok{data =}\NormalTok{ train, }\DataTypeTok{method =} \StringTok{"svmRadial"}\NormalTok{, }\DataTypeTok{metric =} \StringTok{"RMSE"}\NormalTok{,}
                   \DataTypeTok{trControl =}\NormalTok{ train_control,}\DataTypeTok{tuneGrid =} \KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{C =} \KeywordTok{exp}\NormalTok{(logC), }\DataTypeTok{sigma =} \KeywordTok{exp}\NormalTok{(logSigma)))}
   \KeywordTok{list}\NormalTok{(}\DataTypeTok{Score =} \OperatorTok{-}\KeywordTok{getTrainPerf}\NormalTok{(mod)[, }\StringTok{"TrainRMSE"}\NormalTok{], }\DataTypeTok{Pred =} \DecValTok{0}\NormalTok{)}
 \NormalTok{\}}
+
 \CommentTok{## Define the bounds and search for hyper-parameters.}
 \NormalTok{lower_bounds <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\DataTypeTok{logC =} \DecValTok{-8}\NormalTok{, }\DataTypeTok{logSigma =} \DecValTok{-10}\NormalTok{)}
 \NormalTok{upper_bounds <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\DataTypeTok{logC =} \DecValTok{15}\NormalTok{, }\DataTypeTok{logSigma =} \FloatTok{-0.65}\NormalTok{)}
-\NormalTok{svm_bounds <-}\StringTok{ }\KeywordTok{list}\NormalTok{(}\DataTypeTok{logC =} \KeywordTok{c}\NormalTok{(lower_bounds[}\DecValTok{1}\NormalTok{], upper_bounds[}\DecValTok{1}\NormalTok{]), }\DataTypeTok{logSigma =} \KeywordTok{c}\NormalTok{(lower_bounds[}\DecValTok{2}\NormalTok{], upper_bounds[}\DecValTok{2}\NormalTok{]))}
+\NormalTok{svm_bounds <-}\StringTok{ }\KeywordTok{list}\NormalTok{(}\DataTypeTok{logC =} \KeywordTok{c}\NormalTok{(lower_bounds[}\DecValTok{1}\NormalTok{], upper_bounds[}\DecValTok{1}\NormalTok{]), }
+                   \DataTypeTok{logSigma =} \KeywordTok{c}\NormalTok{(lower_bounds[}\DecValTok{2}\NormalTok{], upper_bounds[}\DecValTok{2}\NormalTok{]))}
+
 \CommentTok{# svm_ba_search <- BayesianOptimization(svm_model_fit,}
 \CommentTok{#    bounds = svm_bounds,init_grid_dt = NULL, init_points = 0,n_iter = 4, verbose = TRUE)}
 \end{Highlighting}
@@ -1460,18 +1489,21 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
+\hypertarget{gradient-boosting-trees}{%
+\section{Gradient Boosting Trees}\label{gradient-boosting-trees}}
+
 \begin{frame}{Light Gradient Boosting Machine (LightGBM)}
 \protect\hypertarget{light-gradient-boosting-machine-lightgbm}{}
 
 \begin{itemize}
 \tightlist
 \item
-  Gradient boosting framework that uses tree based learning algorithms.
+  Gradient boosting framework that uses tree based learning algorithms
   \vspace{2mm}
 \item
-  Used for both classification and regression tasks. \vspace{2mm}
+  Used for both classification and regression tasks \vspace{2mm}
 \item
-  Leading algorithm in many machine learning competitions (Kaggle).
+  Leading algorithm in many machine learning competitions (Kaggle)
   \vspace{2mm}
 
   \begin{itemize}
@@ -1525,6 +1557,9 @@ Known as the O.S.E.M.N. framework.
 
 \end{frame}
 
+\hypertarget{model-interpretability}{%
+\section{Model Interpretability}\label{model-interpretability}}
+
 \begin{frame}{Model Explainability}
 \protect\hypertarget{model-explainability}{}
 
@@ -1535,7 +1570,7 @@ Known as the O.S.E.M.N. framework.
 \item
   Interpreting and explaining model predictions. \vspace{2mm}
 \item
-  Explainable machine learning (GDPR law: Right explanation)
+  Explainable machine learning (GDPR law: Right for explanation)
   \vspace{2mm}
 
   \begin{itemize}
@@ -1603,7 +1638,7 @@ Known as the O.S.E.M.N. framework.
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-28} \end{center}
+\begin{center}\includegraphics[width=0.8\linewidth,height=0.7\textheight]{figs/unnamed-chunk-29} \end{center}
 
 \normalsize
 
@@ -1617,7 +1652,7 @@ Known as the O.S.E.M.N. framework.
 \item
   Key steps in the data science life cycle. \vspace{2mm}
 \item
-  Processes before the prediction part are super important \vspace{2mm}
+  Processes before the modeling step are super important \vspace{2mm}
 \item
   Supervised vs Unsupervised \vspace{2mm}
 \item

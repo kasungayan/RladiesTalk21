@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.3)  27 MAR 2021 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.3)  28 MAR 2021 23:12
 entering extended mode
 **./MLinR_slides_Rladies2021.tex
 (MLinR_slides_Rladies2021.tex
@@ -1404,7 +1404,7 @@ Overfull \vbox (16.67491pt too high) detected at line 168
 
 {/Users/kasun/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdft
 ex.map}]
-<images/kasun.png, id=26, 1443.3925pt x 805.0075pt>
+<images/kasun.png, id=50, 1443.3925pt x 805.0075pt>
 File: images/kasun.png Graphic file (type png)
 <use images/kasun.png>
 Package pdftex.def Info: images/kasun.png  used on input line 178.
@@ -1417,8 +1417,19 @@ Overfull \hbox (10.25746pt too wide) in paragraph at lines 178--178
 [2
 
  <./images/kasun.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+210.
+
+("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
+s1lmss.fd"
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [3
+
+] [4
+
+]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-181.
+250.
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
 t1lmss.fd"
@@ -1428,34 +1439,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-81.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+50.
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
 mllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-181.
+250.
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
 mslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-181.
+250.
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
 mxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 181.
+(Font)              <12> on input line 250.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 181.
+(Font)              <8> on input line 250.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 181.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 181
+(Font)              <6> on input line 250.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 250
 .
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
@@ -1466,7 +1477,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 otype/mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 181
+LaTeX Font Info:    Trying to load font information for U+msb on input line 250
 .
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsf
@@ -1478,26 +1489,15 @@ otype/mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 250.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 250.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 181.
- [3
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 250.
+ [5
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-213.
-
-("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/t
-s1lmss.fd"
-File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4
-
-] [5
-
-]
-<images/datascience.jpeg, id=54, 996.72375pt x 903.375pt>
+<images/datascience.jpeg, id=78, 996.72375pt x 903.375pt>
 File: images/datascience.jpeg Graphic file (type jpg)
 <use images/datascience.jpeg>
 Package pdftex.def Info: images/datascience.jpeg  used on input line 267.
@@ -1525,7 +1525,7 @@ Overfull \vbox (9.55876pt too high) detected at line 267
 [6
 
  <./images/datascience.jpeg (PNG copy)>]
-<images/osemn.png, id=61, 878.28125pt x 459.7175pt>
+<images/osemn.png, id=85, 878.28125pt x 459.7175pt>
 File: images/osemn.png Graphic file (type png)
 <use images/osemn.png>
 Package pdftex.def Info: images/osemn.png  used on input line 283.
@@ -1554,68 +1554,70 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
 
 ] [10
 
+] [11
+
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
 
 (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (0.8643pt too high) detected at line 412
+Overfull \vbox (0.8643pt too high) detected at line 415
  []
 
-[11
+[12
 
-] [12
+] [13
 
 ]
-Overfull \vbox (3.49774pt too high) detected at line 474
+Overfull \vbox (3.49774pt too high) detected at line 477
  []
 
-[13
+[14
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-1.pdf, id=112, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-1.pdf, id=142, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-1.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-1.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-1.pdf  used on input line 17.
 (pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (5.05173pt too high) detected at line 496
+Overfull \vbox (5.05173pt too high) detected at line 499
  []
 
-[14
+[15
 
  <./figs/unnamed-chunk-1.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-2.pdf, id=124, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-2.pdf, id=154, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-2.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-2.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-2.pdf  used on input line 18.
 (pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (13.10168pt too high) detected at line 519
+Overfull \vbox (13.10168pt too high) detected at line 522
  []
 
-[15
+[16
 
  <./figs/unnamed-chunk-2.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-3.pdf, id=137, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-3.pdf, id=167, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-3.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-3.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-3.pdf  used on input line 19.
 (pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (21.15164pt too high) detected at line 543
+Overfull \vbox (21.15164pt too high) detected at line 546
  []
 
-[16
+[17
 
  <./figs/unnamed-chunk-3.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
@@ -1628,79 +1630,63 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 s1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<figs/unnamed-chunk-4.pdf, id=150, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-4.pdf, id=180, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-4.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-4.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-4.pdf  used on input line 20.
 (pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (29.2016pt too high) detected at line 568
+Overfull \vbox (29.2016pt too high) detected at line 571
  []
 
-[17
+[18
 
- <./figs/unnamed-chunk-4.pdf>] [18
+ <./figs/unnamed-chunk-4.pdf>] [19
+
+] [20
 
 ]
-<images/data_exploration.png, id=170, 1445.4pt x 801.99625pt>
+<images/data_exploration.png, id=207, 1445.4pt x 801.99625pt>
 File: images/data_exploration.png Graphic file (type png)
 <use images/data_exploration.png>
-Package pdftex.def Info: images/data_exploration.png  used on input line 611.
+Package pdftex.def Info: images/data_exploration.png  used on input line 617.
 (pdftex.def)             Requested size: 276.54764pt x 153.44553pt.
- [19
+ [21
 
  <./images/data_exploration.png (PNG copy)>]
-<images/daily_seasonal.png, id=178, 752.8125pt x 564.60938pt>
+<images/daily_seasonal.png, id=214, 752.8125pt x 564.60938pt>
 File: images/daily_seasonal.png Graphic file (type png)
 <use images/daily_seasonal.png>
-Package pdftex.def Info: images/daily_seasonal.png  used on input line 625.
+Package pdftex.def Info: images/daily_seasonal.png  used on input line 631.
 (pdftex.def)             Requested size: 169.00792pt x 126.75594pt.
- [20
+ [22
 
- <./images/daily_seasonal.png (PNG copy)>]
-<images/model_validation.PNG, id=185, 525.76425pt x 364.9635pt>
+ <./images/daily_seasonal.png (PNG copy)>] [23
+
+]
+<images/model_validation.PNG, id=227, 525.76425pt x 364.9635pt>
 File: images/model_validation.PNG Graphic file (type png)
 <use images/model_validation.PNG>
-Package pdftex.def Info: images/model_validation.PNG  used on input line 645.
+Package pdftex.def Info: images/model_validation.PNG  used on input line 654.
 (pdftex.def)             Requested size: 184.37323pt x 127.98416pt.
 
-Overfull \hbox (23.49976pt too wide) in paragraph at lines 645--645
+Overfull \hbox (23.49976pt too wide) in paragraph at lines 654--654
 [][] 
  []
 
-[21
+[24
 
  <./images/model_validation.PNG>]
-Overfull \vbox (38.8175pt too high) detected at line 673
+Overfull \vbox (22.1426pt too high) detected at line 681
  []
 
-[22
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (28.23784pt too high) detected at line 723
- []
-
-[23
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb) [24
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb)
 [25
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (58.22246pt too high) detected at line 850
+Overfull \vbox (28.23784pt too high) detected at line 731
  []
 
 [26
@@ -1708,218 +1694,203 @@ Overfull \vbox (58.22246pt too high) detected at line 850
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
- (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-9.pdf, id=224, 722.7pt x 505.89pt>
-File: figs/unnamed-chunk-9.pdf Graphic file (type pdf)
-<use figs/unnamed-chunk-9.pdf>
-Package pdftex.def Info: figs/unnamed-chunk-9.pdf  used on input line 17.
-(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
-)
-Overfull \vbox (31.48497pt too high) detected at line 877
- []
+ (MLinR_slides_Rladies2021.vrb) [27
 
-[27
-
- <./figs/unnamed-chunk-9.pdf>]
+]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (10.6623pt too high) detected at line 919
- []
-
 [28
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (58.22246pt too high) detected at line 858
+ []
+
+[29
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-11.pdf, id=243, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-9.pdf, id=266, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-9.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-9.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-9.pdf  used on input line 17.
+(pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
+)
+Overfull \vbox (31.48497pt too high) detected at line 885
+ []
+
+[30
+
+ <./figs/unnamed-chunk-9.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (10.6623pt too high) detected at line 927
+ []
+
+[31
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-11.pdf, id=286, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-11.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-11.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-11.pdf  used on input line 17.
 (pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
 )
-Overfull \vbox (29.54173pt too high) detected at line 941
+Overfull \vbox (29.54173pt too high) detected at line 949
  []
 
-[29
+[32
 
  <./figs/unnamed-chunk-11.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
- (MLinR_slides_Rladies2021.vrb) [30
+ (MLinR_slides_Rladies2021.vrb) [33
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
 
-(MLinR_slides_Rladies2021.vrb) [31
+(MLinR_slides_Rladies2021.vrb) [34
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (0.8643pt too high) detected at line 1052
+Overfull \vbox (0.8643pt too high) detected at line 1060
  []
 
-[32
+[35
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
- (MLinR_slides_Rladies2021.vrb) [33
+ (MLinR_slides_Rladies2021.vrb) [36
 
-] [34
+] [37
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-16.pdf, id=294, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-16.pdf, id=337, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-16.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-16.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-16.pdf  used on input line 21.
 (pdftex.def)             Requested size: 184.36876pt x 122.61255pt.
 )
-Overfull \vbox (12.7275pt too high) detected at line 1130
+Overfull \vbox (12.7275pt too high) detected at line 1138
  []
 
-[35
+[38
 
  <./figs/unnamed-chunk-16.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-17.pdf, id=309, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-17.pdf, id=352, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-17.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-17.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-17.pdf  used on input line 19.
 (pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (21.1176pt too high) detected at line 1154
+Overfull \vbox (21.1176pt too high) detected at line 1162
  []
 
-[36
+[39
 
  <./figs/unnamed-chunk-17.pdf>]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-18.pdf, id=321, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-18.pdf, id=364, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-18.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-18.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-18.pdf  used on input line 20.
 (pdftex.def)             Requested size: 215.1024pt x 147.13661pt.
 )
-Overfull \vbox (29.2016pt too high) detected at line 1179
+Overfull \vbox (29.2016pt too high) detected at line 1187
  []
 
-[37
+[40
 
- <./figs/unnamed-chunk-18.pdf>] [38
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb) [39
+ <./figs/unnamed-chunk-18.pdf>] [41
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
-
-(MLinR_slides_Rladies2021.vrb) [40
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb) [41
+ (MLinR_slides_Rladies2021.vrb) [42
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
 
-(MLinR_slides_Rladies2021.vrb) [42
+(MLinR_slides_Rladies2021.vrb) [43
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [44
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+
+(MLinR_slides_Rladies2021.vrb) [45
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-23.pdf, id=367, 722.7pt x 505.89pt>
+<figs/unnamed-chunk-23.pdf, id=410, 722.7pt x 505.89pt>
 File: figs/unnamed-chunk-23.pdf Graphic file (type pdf)
 <use figs/unnamed-chunk-23.pdf>
 Package pdftex.def Info: figs/unnamed-chunk-23.pdf  used on input line 22.
 (pdftex.def)             Requested size: 184.36876pt x 122.61255pt.
 )
-Overfull \vbox (20.2294pt too high) detected at line 1365
- []
-
-[43
-
- <./figs/unnamed-chunk-23.pdf>]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb) [44
-
-] [45
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
-
-(MLinR_slides_Rladies2021.vrb)
-Underfull \hbox (badness 10000) in paragraph at lines 1461--1461
- [][]\T1/lmss/bx/n/14.4 (+20) Bayesian optimization using 
- []
-
-
-Overfull \vbox (21.56421pt too high) detected at line 1461
+Overfull \vbox (20.2294pt too high) detected at line 1373
  []
 
 [46
 
-] [47
+ <./figs/unnamed-chunk-23.pdf>]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [47
+
+] [48
+
+]
+[49
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb) [50
 
 ]
 \openout4 = `MLinR_slides_Rladies2021.vrb'.
 
  (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (8.91426pt too high) detected at line 1526
- []
-
-[48
-
-] [49
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb)
-Overfull \vbox (0.8643pt too high) detected at line 1589
- []
-
-[50
-
-]
-\openout4 = `MLinR_slides_Rladies2021.vrb'.
-
- (MLinR_slides_Rladies2021.vrb
-<figs/unnamed-chunk-28.pdf, id=423, 722.7pt x 505.89pt>
-File: figs/unnamed-chunk-28.pdf Graphic file (type pdf)
-<use figs/unnamed-chunk-28.pdf>
-Package pdftex.def Info: figs/unnamed-chunk-28.pdf  used on input line 16.
-(pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
-)
-Overfull \vbox (21.52582pt too high) detected at line 1610
- []
-
 [51
 
- <./figs/unnamed-chunk-28.pdf>] [52
+] [52
 
 ] [53
 
 ]
-Overfull \vbox (5.22285pt too high) detected at line 1694
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (8.91426pt too high) detected at line 1558
  []
 
 [54
@@ -1927,6 +1898,44 @@ Overfull \vbox (5.22285pt too high) detected at line 1694
 ] [55
 
 ] [56
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb)
+Overfull \vbox (0.8643pt too high) detected at line 1624
+ []
+
+[57
+
+]
+\openout4 = `MLinR_slides_Rladies2021.vrb'.
+
+ (MLinR_slides_Rladies2021.vrb
+<figs/unnamed-chunk-29.pdf, id=490, 722.7pt x 505.89pt>
+File: figs/unnamed-chunk-29.pdf Graphic file (type pdf)
+<use figs/unnamed-chunk-29.pdf>
+Package pdftex.def Info: figs/unnamed-chunk-29.pdf  used on input line 16.
+(pdftex.def)             Requested size: 245.83604pt x 171.66066pt.
+)
+Overfull \vbox (21.52582pt too high) detected at line 1645
+ []
+
+[58
+
+ <./figs/unnamed-chunk-29.pdf>] [59
+
+] [60
+
+]
+Overfull \vbox (5.22285pt too high) detected at line 1729
+ []
+
+[61
+
+] [62
+
+] [63
 
 ]
 \tf@nav=\write7
@@ -1941,13 +1950,13 @@ Overfull \vbox (5.22285pt too high) detected at line 1694
  (MLinR_slides_Rladies2021.aux)
 Package rerunfilecheck Info: File `MLinR_slides_Rladies2021.out' has not change
 d.
-(rerunfilecheck)             Checksum: 47949AC7C3DCEDDDEEFE3CD50587DDA1;103.
+(rerunfilecheck)             Checksum: E6C0834A3E9D488CCD16383B1524FC2E;957.
  ) 
 Here is how much of TeX's memory you used:
- 28885 strings out of 481270
- 569272 string characters out of 2906482
- 855176 words of memory out of 3000000
- 45074 multiletter control sequences out of 15000+200000
+ 28946 strings out of 481270
+ 569952 string characters out of 2906482
+ 856007 words of memory out of 3000000
+ 45112 multiletter control sequences out of 15000+200000
  502759 words of font info for 167 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  131i,13n,132p,1829b,865s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1966,9 +1975,9 @@ ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt10.pfb>
 lic/lm/lmtt12.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/insta
 ll/fonts/type1/public/lm/lmtt8.pfb></Users/kasun/Library/Application Support/Mi
 KTeX/texmfs/install/fonts/type1/public/lm/lmtti10.pfb>
-Output written on MLinR_slides_Rladies2021.pdf (56 pages, 1655043 bytes).
+Output written on MLinR_slides_Rladies2021.pdf (63 pages, 1666411 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 167 named destinations out of 1000 (max. 500000)
- 63624 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 63672 words of extra memory for PDF output out of 74296 (max. 10000000)
 
