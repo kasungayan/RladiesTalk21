@@ -619,7 +619,7 @@ mlp_fit <- train(price ~ ., train, method = "nnet",trControl = trainControl(meth
 #print(mlp_fit)
 ``` 
 
-## Deep Neural Netowrks using \texttt{\{keras\}}
+## Deep Neural Networks using \texttt{\{keras\}}
 ```{r size="tiny",fig.align="center", warning=F, message=F, results='hide'}
 library(keras)
 library(rsample)
